@@ -1,0 +1,168 @@
+body {
+    font-family:  'Open Sans', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    background: linear-gradient(135deg, #000000 0%,#161a51 49%,#1c5918 100%);
+    min-height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #dff9f9;
+    transition: .6s;
+}
+
+a:hover,
+a:active {
+    color: #dff9f9;
+}
+
+a:visited {
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+    padding: 0 10px;
+}
+
+@media(min-width: 1024px) {
+   .container {
+       padding: 0 15px;
+   }
+}
+
+.pf-title {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.pf-block {
+    margin-bottom: 30px;
+}
+
+.pf-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.pf-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: .6s;
+    width: 100%;
+    max-width: 320px;
+    padding: 10px;
+    background: linear-gradient(135deg, #1c5918 0%,#161a51 49%,#000000 100%);
+    position: relative;
+}
+
+
+
+@media (min-width: 768px) {
+    .pf-list-item {
+        width: 32%;
+        max-width: none;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .pf-list-item {
+        color: #090b23;
+    }
+
+    .pf-list-item:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        left: 0;
+        top: 0;
+        z-index: 0;
+        transition: .6s;
+    }
+
+    .pf-list-item:hover:after {
+        width: 0;
+        height: 0;
+    }
+
+    .pf-list-item:hover {
+        color: #ffffff;
+    }
+
+
+}
+
+
+.pf-list-item span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+.pf-list-item img {
+    transition: .6s;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.pf-list-item:hover img {
+
+}
+
+.pf-list-item:hover span {
+
+}
+
+@media (min-width: 1024px) {
+    .pf-list-item img{
+        filter: grayscale(1);
+    }
+    .pf-list-item:hover img{
+        filter: grayscale(0);
+    }
+}

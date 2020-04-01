@@ -2,724 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/around_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/birthday.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/book.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/butterfly_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/cross.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/give_you.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/header_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/home_business.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/icon_butterfly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/icon_farm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/icon_fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/icon_g+.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/icon_introduction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/icon_ok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/icon_provider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/icon_shop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/icon_support.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/icon_twit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/icon_vk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/intro_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/kids.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/lp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/new_year.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/peace.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/photographers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/shop_center.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/shop_center_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/small_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/take_press.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/thank_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/user_room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/vk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/vk_insta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/img/wedding.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/butterfly/thanks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/css/foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/css/foundation.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro-Black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/GothamPro.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/aaa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/avinor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/bag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/dlugos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/face_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/intel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/intro_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/intro_bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/intro_bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/intro_bg3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/intro_bg4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/intro_bg5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/kis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/lego.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/lett.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/lex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/logo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/logo_bb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/lyla_baby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/mess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/milano.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/pepsi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/question_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/review_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/review_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/review_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/review_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/review_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/service_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/service_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/service_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/service_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/stat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/sun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/images/team.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/js/foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/js/mapbasics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/js/project-plugins/project-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/js/vendor/all-vendor-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/js/vendor/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/js/vendor/jquery.maskedinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consult/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/css/foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/css/foundation.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Ama.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Avalon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Azamara.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Carnival.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Celebrity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Costa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Cunard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Disney.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Holland.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/MSC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Norvegian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Oceania.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Princess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Regent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Royal Caribbean.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/SeaDream.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Seabourn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Silversea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Uniworld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Viking.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/Windstar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/carribean.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/costa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/face.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/face.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/letter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/river.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/service1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/service10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/service2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/service3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/service4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/service5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/service6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/service7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/service8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/service9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/subs-ico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/images/symbol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/js/foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/js/project-plugins/project-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/js/vendor/all-vendor-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/js/vendor/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cruiz/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/css/foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/css/foundation.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-ExtraBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-ExtraBold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-ExtraBold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-ExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/Circe-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/images/fight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/images/large_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/images/medium_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/images/nick1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/images/nick2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/images/octagon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/images/small_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/images/smoke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/js/foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/js/project-plugins/project-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/js/vendor/all-vendor-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/js/vendor/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/erelmma/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/css/foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/css/foundation.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/BadScript-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/BadScript-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/BadScript-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/BadScript-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/BadScript-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/Cormorant-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/Cormorant-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/Cormorant-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/Cormorant-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/Cormorant-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/GothamPro-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/GothamPro-Black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/GothamPro-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/GothamPro-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/GothamPro-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/GothamPro-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/GothamPro-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/GothamPro-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/GothamPro-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/GothamPro-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/PlayfairDisplay-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/PlayfairDisplay-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/PlayfairDisplay-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/PlayfairDisplay-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/PlayfairDisplay-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/PlayfairDisplay-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/PlayfairDisplay-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/PlayfairDisplay-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/PlayfairDisplay-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/PlayfairDisplay-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/SFUIText-Heavy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/SFUIText-Heavy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/SFUIText-Heavy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/SFUIText-Heavy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/SFUIText-Heavy.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/SFUIText-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/SFUIText-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/SFUIText-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/SFUIText-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/SFUIText-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/YesevaOne-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/YesevaOne-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/YesevaOne-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/YesevaOne-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/YesevaOne-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/images/about_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/images/about_sign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/images/intro_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/images/logo_bb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/images/pf_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/images/serv_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/images/slash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/js/foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/js/project-plugins/project-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/js/vendor/all-vendor-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/js/vendor/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likefilms/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/css/foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/css/foundation.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/around_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/around_arrow_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/bylinina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/down_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/education.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/facts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/fingerprint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/info_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/insta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/intro_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/logo-gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/megaphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/shield.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/tv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/up_bg — копия.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/up_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/whois.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/whois_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/workshop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/images/youtube.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/js/foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/js/project-plugins/project-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/js/vendor/all-vendor-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/js/vendor/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/margo/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/css/foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/css/foundation.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/GothamPro.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/SFUIText-Heavy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/SFUIText-Heavy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/SFUIText-Heavy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/SFUIText-Heavy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/SFUIText-Heavy.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/SFUIText-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/SFUIText-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/SFUIText-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/SFUIText-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/SFUIText-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/advant.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/alinko.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/baofeng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/bg_buble_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/bg_buble_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/bg_buble_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/bizon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/client_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/client_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/client_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/client_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/client_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/client_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/footer_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/header_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/kenwood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/logo_bb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/motorola.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/radios.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/serv_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/serv_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/serv_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/serv_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/images/vertex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/js/foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/js/mapbasics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/js/project-plugins/project-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/js/vendor/all-vendor-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/js/vendor/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/js/vendor/jquery.maskedinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/radio/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/css/foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/css/foundation.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-SemiBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-SemiBold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Akrobat-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/HelveticaNeueCyr-Roman.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/HelveticaNeueCyr-Roman.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/HelveticaNeueCyr-Roman.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/HelveticaNeueCyr-Roman.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/HelveticaNeueCyr-Roman.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Lato-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Lato-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Lato-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/Lato-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/1-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/1-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/1-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/1-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/1-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/2-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/2-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/2-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/3-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/3-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/3-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/3-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/3-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/3-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/4-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/4-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/4-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/4-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/4-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/4-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/5-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/5-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/5-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/5-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/advant_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/advant_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/advant_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/advant_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/advant_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/advant_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/advant_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/advant_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/intro_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/logo-leona.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/review_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/review_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/review_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/review_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/review_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/review_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/service_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/service_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/service_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/service_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/service_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/service_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/service_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/images/service_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/js/foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/js/mapbasics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/js/project-plugins/project-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/js/vendor/all-vendor-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/js/vendor/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/js/vendor/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stroimdom/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/css/foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/css/foundation.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/GothamPro.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/Logo_Fabrika.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/about_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/ajaz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/alex.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/anton.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/fabrika.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/for_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/for_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/for_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/for_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/for_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/for_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/intervolna.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/intervolna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/ivan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/kate_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/kate_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/katya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/politika_konfidentsialnosti.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/speech_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/speech_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/speech_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/speech_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/speech_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/speech_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/theme_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/tsentr_predprinimatelstva_like_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/ural-8716-display.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/images/ural.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/js/foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/js/mapbasics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/js/project-plugins/project-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/js/vendor/all-vendor-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/js/vendor/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/js/vendor/jquery.maskedinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trening/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/css/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-ExtraBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-ExtraBold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-ExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-ExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Thin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/Raleway-Thin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/client_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/client_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/client_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/client_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/client_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/client_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/consult_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/consult_geometric.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/intro_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/intro_bg_triangle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/mistake_effect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/mistakes_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/modal_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/offer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/our_work_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/our_work_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/our_work_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/our_work_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/our_work_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/our_work_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/review_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/service_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/service_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/service_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/service_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/service_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/service_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/service_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/service_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/team_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/team_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/team_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/team_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/team_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/team_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/team_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/team_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/team_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/viber.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/whatsapp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/images/works_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/js/jquery.maskedinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vits/js/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/css/components/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/css/components/slick-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/css/foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/css/foundation.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MinionPro-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MinionPro-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MinionPro-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MinionPro-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MinionPro-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MinionPro-Semibold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MinionPro-Semibold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MinionPro-Semibold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MinionPro-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MinionPro-Semibold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MyriadPro-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MyriadPro-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MyriadPro-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MyriadPro-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MyriadPro-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MyriadPro-Semibold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MyriadPro-Semibold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MyriadPro-Semibold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MyriadPro-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/MyriadPro-Semibold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/selection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/about-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/about-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/brand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/contacts-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/html_bl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/ideology-slide-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/intro-slide-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/intro-slide-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/logo-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/logo-grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/php.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/php_bl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/images/psd_bl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/js/foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/js/project-plugins/project-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/js/vendor/all-vendor-plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/js/vendor/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/js/vendor/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/walkers/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/css/foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/css/foundation.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Black.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/GothamPro.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/Logo_Fabrika.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/about_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/ajaz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/alex.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/anton.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/fabrika.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/for_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/for_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/for_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/for_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/for_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/for_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/intervolna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/intervolna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/ivan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/kate_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/kate_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/katya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/politika_konfidentsialnosti.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/speech_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/speech_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/speech_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/speech_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/speech_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/speech_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/theme_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/tsentr_predprinimatelstva_like_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/ural-8716-display.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/images/ural.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/js/foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/js/mapbasics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/js/project-plugins/project-plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/js/vendor/all-vendor-plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/js/vendor/jquery-2.2.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/js/vendor/jquery.maskedinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trening/style.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -733,29 +101,37 @@
         <counts>
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.95" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="992" />
+          <entry key="css" value="857" />
+          <entry key="html" value="1230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="992" />
+          <entry key="CSS" value="857" />
+          <entry key="HTML" value="1230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="config" value="1" />
+          <entry key="css" value="2" />
+          <entry key="html" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -763,18 +139,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+            <state relative-caret-position="2360">
+              <caret line="118" column="58" selection-start-line="118" selection-start-column="58" selection-end-line="118" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="84" column="20" lean-forward="true" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/radio/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2000">
+              <caret line="100" column="27" selection-start-line="92" selection-end-line="100" selection-end-column="27" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -787,14 +176,32 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rap</find>
+      <find>body</find>
+      <find>wrap</find>
+      <find>tren</find>
+      <find>f=</find>
+      <find>&lt;a class=&quot;pf-list-item&quot;</find>
+      <find>target=&quot;_blank&quot;&gt;</find>
+      <find>&quot;images/&quot;</find>
+      <find>.4</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>href=</replace>
+      <replace>&lt;a class=&quot;pf-list-item&quot;</replace>
+      <replace>&quot;images/.jpg&quot;</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -818,6 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -825,11 +233,15 @@
               <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="radio" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -868,17 +280,19 @@
       <workItem from="1585651857481" duration="2000" />
       <workItem from="1585652404494" duration="2169000" />
       <workItem from="1585655136724" duration="622000" />
+      <workItem from="1585657256009" duration="7577000" />
+      <workItem from="1585724746497" duration="6235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5787000" />
+    <option name="totallyTimeSpent" value="19599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15809768" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16195373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -910,15 +324,40 @@
     <entry file="file://$PROJECT_DIR$/.git/config">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/consult/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="275" column="4" selection-start-line="275" selection-end-line="275" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+        <state relative-caret-position="2360">
+          <caret line="118" column="58" selection-start-line="118" selection-start-column="58" selection-end-line="118" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radio/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="100" column="27" selection-start-line="92" selection-end-line="100" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="84" column="20" lean-forward="true" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
