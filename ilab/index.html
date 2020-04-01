@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Ремонт iPhone и iPad в Краснодаре.</title>
+        <link href="images/favicon-iLab2.ico" rel="shortcut icon" type="image/x-icon">
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header-inner">
+                    <div class="header-info">
+                        <div class="header-logo"><a href="index.html" class="header-logo-inner"><img src="images/logo.png" alt=""></a></div>
+                        <div class="header-time show-for-medium"><img src="images/time.png" alt="">
+                            <p>С 10 ДО 22</p>
+                            <p>КАЖДЫЙ ДЕНЬ</p>
+                        </div>
+                        <div class="header-adress show-for-medium"><img src="images/marker.png" alt="">
+                            <p>УЛ. ГОЛОВАТОГО, 311,</p>
+                            <p>ТРЦ “ГАЛЕРЕЯ -2”</p>
+                        </div>
+                        <div class="header-trigger hide-for-large">
+                            <div class="header-trigger-inner">
+                                <p class="open">меню</p>
+                                <p class="close">закрыть</p>
+                                <div class="header-trigger-icon"><span></span><span></span><span></span><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-action">
+                        <div class="header-action-tel"><a href="tel:+791818­555­35">+7 (918) 18­-555­-35</a></div>
+                        <button href="#test" class="header-btn action anchor-link"><span>ПОСЧИТАТЬ РЕМОНТ</span></button>
+                    </div>
+                    <div class="header-nav">
+                        <ul class="header-nav-menu">
+                            <li> <a href="#test" class="anchor-link">СТОИМОСТЬ</a></li>
+                            <li> <a href="#team" class="anchor-link">КОМАНДА</a></li>
+                            <li> <a href="#mobile-service" class="anchor-link">ВЫЕЗДНОЙ РЕМОНТ</a></li>
+                            <li> <a href="#reviews" class="anchor-link">НАШИ КЛИЕНТЫ</a></li>
+                            <li> <a href="#map-section" class="anchor-link">КАК НАС НАЙТИ?</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="wrapper-social">
+                <div class="wrapper-social-inner"><a href="https://api.whatsapp.com/send?phone=79181855535" target="_blank"><img src="images/icon_whatsup.png" alt=""></a><a href="https://t.me/iLab_KRD" target="_blank"><img src="images/icon_telegram.png" alt=""></a><a href="https://vk.com/im?sel=-142631375" target="_blank"><img src="images/icon_vk.png" alt=""></a><a href="https://www.instagram.com/ilab_krasnodar/" target="_blank"><img src="images/icon_insta.png" alt=""></a></div>
+            </div>
+            <section id="intro" class="section-container">
+                <div class="rotate-section intro">
+                    <div class="intro-image-bg show-for-large"><img src="images/intro_img.png" alt="" class="intro-bg-img"></div>
+                    <div class="intro-inner section-inner">
+                        <div class="row small-collapse">
+                            <div class="column small-12">
+                                <div class="intro-title section-title"><span>ОТРЕМОНТИРУЙ СВОЙ iPhone ИЛИ iPad ЗА 20 МИНУТ <br>В САМОМ ЦЕНТРЕ С ГАРАНТИЕЙ ОТ 1 МЕСЯЦА</span></div>
+                                <div class="row large-collapse">
+                                    <div class="column small-12 large-7 large-offset-5">
+                                        <ul class="intro-achievements list">
+                                            <li><span>Космически­ позитивные эмоции после ремонта Вашего гаджета</span></li>
+                                            <li><span>Восстановили из пепла более 4000 устройств</span></li>
+                                            <li><span>Работаем 7 земных дней в неделю</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <form action="post.php" method="post" id="powerbank-form" class="intro-powerbank action-form"><img src="images/powerbank.png" alt="" class="powerbank-img show-for-large">
+                                    <div class="row">
+                                        <div class="column small-12 large-10">
+                                            <div class="intro-powerbank-sentence sentence-text"><span>Зарегистрируйся и участвуй в розыгрыше powerbank на 10000 mA в следующем месяце!</span></div>
+                                        </div>
+                                        <div class="column small-12 medium-8 medium-offset-2 large-4 large-offset-0">
+                                            <input type="hidden" name="powerbank-form[company]">
+                                            <input type="hidden" name="powerbank-form[location]" value="Розыгрыш Powerbank">
+                                            <input type="email" required placeholder="Ваш E-mail" name="powerbank-form[email]">
+                                        </div>
+                                        <div class="column small-12 medium-8 medium-offset-2 large-4 large-offset-0">
+                                            <input type="tel" id="powerbank-form-tel" required placeholder="Ваш телефон" name="powerbank-form[phone]">
+                                        </div>
+                                        <div class="column small-12 medium-8 medium-offset-2 large-4 large-offset-0 end">
+                                            <button class="intro-button action"> <span>ХОЧУ POWERBANK</span></button>
+                                        </div>
+                                        <div class="column small-12 medium-8 medium-offset-2 large-12 large-offset-0 data-check end">
+                                            <input type="checkbox" required id="powerbankcheck" name="powerbank-form[check]">
+                                            <label for="powerbankcheck">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с</label>
+                                            <a href="sources/confidential.pdf"  target="_blank">политикой конфиденциальности</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="test" class="section-container">
+                <div class="rotate-section test">
+                    <div class="test-inner section-inner">
+                        <div class="row">
+                            <div class="column small-0 large-8">
+                                <ul class="test-services list show-for-large">
+                                    <li><span>В компании работает 4 дрона</span></li>
+                                    <li><span>Ремонт при Вас на нашем космическом корабле от 15 минут</span></li>
+                                    <li><span>Приятный подарок­ - сюрприз каждому клиенту</span></li>
+                                    <li><span>Бесплатная парковка</span></li>
+                                </ul>
+                            </div>
+                            <div class="column small-0 large-4">
+                                <div class="test-img show-for-large"><img src="images/bb_8_toy.png" alt=""></div>
+                            </div>
+                            <div class="column small-12">
+                                <h2 class="test-title section-title"><span>Пройди за 2 минуты тест на неисправность, <br>получи подарок на выбор и узнай стоимость ремонта</span></h2>
+                            </div>
+                        </div>
+                        <div class="test-sentences">
+                            <div class="row large-collapse">
+                                <div class="column small-12 medium-6 large-4">
+                                    <div class="test-item">
+                                        <div class="test-item-title"><span>ШНУР ДЛЯ ЗАРЯДКИ</span></div>
+                                        <div class="test-item-image"><img src="images/usb.jpg" alt=""></div>
+                                        <div class="test-item-price"><span>1000 руб.</span><span>БЕСПЛАТНО</span></div>
+                                    </div>
+                                </div>
+                                <div class="column small-12 medium-6 large-4">
+                                    <div class="test-item">
+                                        <div class="test-item-title"><span>ЗАЩИТНОЕ БРОНЕСТЕКЛО</span></div>
+                                        <div class="test-item-image"><img src="images/glass.jpg" alt=""></div>
+                                        <div class="test-item-price"><span>1000 руб.</span><span>БЕСПЛАТНО</span></div>
+                                    </div>
+                                </div>
+                                <div class="column small-12 large-4">
+                                    <div class="test-item">
+                                        <div class="test-arrow"><img src="images/big_arrow_right.png" alt=""></div><a href="test.html" target="_blank" class="test-btn action"><span>ПРОЙТИ ТЕСТ!</span><img src="images/test_btn.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="map-section" class="section-container">
+                <div class="map rotate-section">
+                    <div class="map-inner section-inner">
+                        <div class="row large-collapse">
+                            <div class="column small-12 large-6">
+                                <h2 class="map-title"><span>КАК НАС НАЙТИ?</span></h2>
+                                <div class="map-text">
+                                    <p>Мы работаем для Вас каждый день с 10:00 до 22:00</p>
+                                    <p>Наш космический корабль приземлился в самом центре Краснодара.</p>
+                                    <p>Мы находимся в ТРЦ "Галерея-2" по адресу: улица Головатого, 311, 1-й этаж, вход с  ул. Северная и ул. Октябрьская, напротив магазинов "Calzedonia",  "Marina" и салона Tele2.</p>
+                                    <p>Пока наши дроны чинят Ваше устройство, Вы можете пообедать или совершить необходимые покупки.</p>
+                                    <p>И не надо кататься кругами вокруг здания - на 4-м этаже есть большая парковка со свободными местами.</p>
+                                </div>
+                            </div>
+                            <div class="column small-12 large-6">
+                                <div class="map-content">
+                                    <div id="map" class="map-plan"></div>
+                                    <div class="map-img"><img src="images/map1.jpg" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="column small-12 show-for-large">
+                                <button class="map-btn action"><span>УЗНАТЬ ПОДРОБНЕЕ</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-more">
+                        <div class="map-more-inner">
+                            <div class="map-more-title"><span>От парковки ТЦ "Галерея" вы можете добраться до нашего сервиса следуя схеме ниже:</span></div>
+                            <div class="row">
+                                <div class="column large-6">
+                                    <div class="map-more-img"><img src="images/more_photo.jpg" alt=""></div>
+                                </div>
+                                <div class="column large-6">
+                                    <div class="map-more-img"><img src="images/more_small_map.jpg" alt=""></div>
+                                </div>
+                                <div class="column large-8 large-offset-2 end">
+                                    <div class="map-more-img"><img src="images/more_big_map.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map-more-close"><span>X</span></div>
+                    </div>
+                </div>
+            </section>
+            <section id="mobile-service" class="section-container">
+                <div class="rotate-section mobile-service">
+                    <div class="mobile-service-inner section-inner">
+                        <div class="row">
+                            <div class="column small-12">
+                                <h2 class="section-title mobile-service-title"><span>МОТОРОЛЛЕРЫ - ЭТО ПРОШЛЫЙ ВЕК</span></h2>
+                            </div>
+                            <div class="column small-12">
+                                <div class="mobile-service-text">
+                                    <p>Нет времени на ремонт?</p>
+                                    <p>Не хотите никуда ездить и ждать?</p>
+                                    <p>Вызовите нашего галактического дрона в любое удобное Вам место и время.</p>
+                                    <p>Он проведет бесплатную диагностику и отремонтирует Вам IPhone пока ВЫ:</p>
+                                    <div class="mobile-service-droid"><img src="images/bb_8.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile-service-list">
+                            <div class="row medium-collapse">
+                                <div class="column small-12 medium-6 large-12">
+                                    <div class="mobile-service-list-left">
+                                        <div class="row medium-collapse">
+                                            <div class="column small-12 large-5">
+                                                <div class="mobile-service-item">
+                                                    <div class="mobile-item-img"><img src="images/icon_cup.png" alt=""></div>
+                                                    <div class="mobile-item-text"><span>обедаете</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="column small-12 large-3">
+                                                <div class="mobile-service-item">
+                                                    <div class="mobile-item-img"><img src="images/icon_work.png" alt=""></div>
+                                                    <div class="mobile-item-text"><span>работаете</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="column small-12 large-4">
+                                                <div class="mobile-service-item">
+                                                    <div class="mobile-item-img"><img src="images/icon_car.png" alt=""></div>
+                                                    <div class="mobile-item-text"><span>моете машину</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column small-12 medium-6 large-12">
+                                    <div class="mobile-service-list-right">
+                                        <div class="row medium-collapse">
+                                            <div class="column small-12 large-5">
+                                                <div class="mobile-service-item">
+                                                    <div class="mobile-item-img"><img src="images/icon_bicycle.png" alt=""></div>
+                                                    <div class="mobile-item-text"><span>занимаетесь спортом</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="column small-12 large-3">
+                                                <div class="mobile-service-item">
+                                                    <div class="mobile-item-img"><img src="images/icon_rest.png" alt=""></div>
+                                                    <div class="mobile-item-text"><span>отдыхаете</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="column small-12 large-4">
+                                                <div class="mobile-service-item">
+                                                    <div class="mobile-item-img"><img src="images/icon_traffic.png" alt=""></div>
+                                                    <div class="mobile-item-text"><span>стоите в пробке</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row small-collapse">
+                            <div class="small-12">
+                                <form action="post.php" method="post" id="mobserv-form" class="action-form mobile-service-form">
+                                    <div class="row">
+                                        <div class="column small-12">
+                                            <div class="mobile-form-title sentence-text"><span>Стоимость ремонта на выезде не отличается от стоимости ремонта в нашем сервисе</span></div>
+                                        </div>
+                                        <div class="column small-12 medium-8 medium-offset-2 large-4 large-offset-2">
+                                            <input type="hidden" name="mobserv-form[company]">
+                                            <input type="hidden" name="mobserv-form[location]" value="Заявка на вызов мастера">
+                                            <input type="tel" id="mobserv-form-tel" required placeholder="Ваш телефон" name="mobserv-form[phone]">
+                                        </div>
+                                        <div class="column small-12 medium-8 medium-offset-2 large-4 large-offset-0 end">
+                                            <button class="mobile-form-btn action"><span>ВЫЗВАТЬ МАСТЕРА</span></button>
+                                        </div>
+                                        <div class="column small-12 medium-8 medium-offset-2 end data-check servicecheck">
+                                            <input type="checkbox" required id="servicecheck">
+                                            <label for="servicecheck">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с</label>
+                                            <a href="sources/confidential.pdf"  target="_blank">политикой конфиденциальности</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="team" class="section-container">
+                <div class="team rotate-section">
+                    <div class="team-inner section-inner">
+                        <div class="row">
+                            <div class="column small-12">
+                                <h2 class="team-title section-title"><span>МЫ СОБРАЛИ ДЛЯ ВАС ЛУЧШИХ ДРОНОВ</span></h2>
+                                <div class="team-container">
+                                    <div class="arrow-left arrow-slider"><img src="images/arrow_left.png" alt=""></div>
+                                    <div class="arrow-right arrow-slider"><img src="images/arrow_right.png" alt=""></div>
+                                    <div class="row">
+                                        <div class="team-list-slider">
+                                            <div class="team-list-slide">
+                                                <div class="column small-12">
+                                                    <div class="team-list-item">
+                                                        <div class="team-item-img"><img src="images/worker1.jpg" alt=""></div>
+                                                        <div class="team-item-title"><span>ДРОН 1 </span><span>По-земному </span><span>ЕВГЕНИЙ</span></div>
+                                                        <div class="team-item-info"><span>В свободное время </span><span>пишет стихи </span><span>про IPhone </span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="team-list-slide">
+                                                <div class="column small-12">
+                                                    <div class="team-list-item">
+                                                        <div class="team-item-img"><img src="images/worker2.jpg" alt=""></div>
+                                                        <div class="team-item-title"><span>ДРОН 2 </span><span>По-земному </span><span>АРТЁМ </span></div>
+                                                        <div class="team-item-info"><span>Первое слово, которое он сказал было "IPhone"</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="team-list-slide">
+                                                <div class="column small-12">
+                                                    <div class="team-list-item">
+                                                        <div class="team-item-img"><img src="images/worker3.jpg" alt=""></div>
+                                                        <div class="team-item-title"><span>ДРОН 3 </span><span>По-земному </span><span>ОЛЕГ </span></div>
+                                                        <div class="team-item-info"><span>В детстве вместо </span><span>конструктора собирал и </span><span>разбирал телефон с </span><span>диском </span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <form action="post.php" method="post" id="team-form" class="team-form action-form">
+                                    <div class="team-form-title sentence-text"><span>Что-то не понравилось в работе наших дронов? Заметили сбой? Расскажите нам о нем и получите ремонт бесплатно.</span></div>
+                                    <div class="row">
+                                        <div class="column small-12 large-3">
+                                            <input type="hidden" name="team-form[company]">
+                                            <input type="hidden" name="team-form[location]" value="Заявка о сбое, что-то не понравилось в работе мастера">
+                                            <input type="tel" id="team-form-tel" required placeholder="Ваш телефон" name="team-form[phone]">
+                                        </div>
+                                        <div class="column small-12 large-3">
+                                            <input type="text" required placeholder="Ваше имя" name="team-form[name]">
+                                        </div>
+                                        <div class="column small-12 large-3">
+                                            <input type="text" placeholder="Расскажите о сбое" name="team-form[message]">
+                                        </div>
+                                        <div class="column small-12 large-3">
+                                            <button class="team-form-btn action"><span>РАССКАЗАТЬ</span></button>
+                                        </div>
+                                        <div class="column small-12 medium-8 medium-offset-2 large-12 end data-check teamcheck">
+                                            <input type="checkbox" required id="teamcheck">
+                                            <label for="teamcheck">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с</label>
+                                            <a href="sources/confidential.pdf"  target="_blank">политикой конфиденциальности</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="mission" class="section-container">
+                <div class="mission rotate-section show-for-large">
+                    <div class="mission-inner section-inner">
+                        <div class="row">
+                            <div class="column small-12">
+                                <h2 class="mission-title section-title"><span>МИССИЯ НАШЕЙ КОМПАНИИ:</span></h2>
+                                <div class="mission-content">
+                                    <div class="mission-content-most"><span>Стать сервисом N1 по уровню обслуживания клиентов, качеству и по скорости ремонта</span></div>
+                                    <div class="mission-content-item item-1">
+                                        <p>Мы знаем как </p>
+                                        <p>неудобно бывает </p>
+                                        <p>звонить, поэтому </p>
+                                        <p>отвечаем во всех </p>
+                                        <p>мессенджерах и </p>
+                                        <p>социальных сетях </p>
+                                        <p>на Ваши вопросы </p>
+                                        <p>меньше, чем </p>
+                                        <p>за 2 минуты</p>
+                                    </div>
+                                    <div class="mission-content-item item-2">
+                                        <p>Мы создали </p>
+                                        <p>специального </p>
+                                        <p>бота, который </p>
+                                        <p>с удовольствием </p>
+                                        <p>проконсультирует </p>
+                                        <p>Вас в Telegram.</p>
+                                        <p>Проверьте сами: </p><a href="#">
+                                            <p>ССЫЛКА НА БОТ</p></a>
+                                    </div>
+                                    <div class="mission-content-item item-3">
+                                        <p>Мы можем сказать, </p>
+                                        <p>когда отдадим </p>
+                                        <p>Вам Ваш телефон </p>
+                                        <p>с точностью </p>
+                                        <p>до минуты </p>
+                                    </div>
+                                    <div class="mission-content-item item-4">
+                                        <p>Все наши </p>
+                                        <p>клиенты </p>
+                                        <p>получают </p>
+                                        <p>фирменные </p>
+                                        <p>подарки</p>
+                                    </div>
+                                    <div class="mission-content-item item-5">
+                                        <p>У нас внедрена</p>
+                                        <p>новейшая CRM-система, </p>
+                                        <p>что позволяет нам </p>
+                                        <p>сразу знать, кто нам звонит </p>
+                                        <p>и не задавать много </p>
+                                        <p>лишних вопросов</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="partnership" class="section-container">
+                <div class="partnership rotate-section show-for-large">
+                    <div class="partnership-inner section-inner">
+                        <div class="row">
+                            <div class="column small-12">
+                                <h2 class="partnership-title section-title"><span>Зарабатывайте от 5000 до 30 000 рублей в месяц вместе с нашим галактическим альянсом</span></h2>
+                                <div class="partnership-list">
+                                    <div class="column small-4">
+                                        <div class="partnership-list-item">
+                                            <div class="partnership-next"><img src="images/big_arrow_right.png" alt=""></div>
+                                            <div class="partnership-item-img">
+                                                <div class="partnership-item-number"><span>1</span></div><img src="images/icon_partners.png" alt="">
+                                            </div>
+                                            <div class="partnership-item-text"><span>Зарегистрируйся в партнерском кабинете</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="column small-4">
+                                        <div class="partnership-list-item">
+                                            <div class="partnership-next"><img src="images/big_arrow_right.png" alt=""></div>
+                                            <div class="partnership-item-img">
+                                                <div class="partnership-item-number"><span>2</span></div><img src="images/icon_promo.png" alt="">
+                                            </div>
+                                            <div class="partnership-item-text"><span>Получи персональную ссылку и промокод</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="column small-4">
+                                        <div class="partnership-list-item">
+                                            <div class="partnership-item-img">
+                                                <div class="partnership-item-number"><span>3</span></div><img src="images/icon_social.png" alt="">
+                                            </div>
+                                            <div class="partnership-item-text"><span>Опубликуй ее у себя в соц. сетях или отправь друзьям</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="column small-4">
+                                        <div class="partnership-list-item">
+                                            <div class="partnership-next"><img src="images/big_arrow_right.png" alt=""></div>
+                                            <div class="partnership-item-img">
+                                                <div class="partnership-item-number"><span>4</span></div><img src="images/icon_cash.png" alt="">
+                                            </div>
+                                            <div class="partnership-item-text"><span>Получай от 10 до 20% с каждого пришедшего от тебя человека </span></div>
+                                        </div>
+                                    </div>
+                                    <div class="column small-4">
+                                        <div class="partnership-list-item">
+                                            <div class="partnership-next"><img src="images/big_arrow_right.png" alt=""></div>
+                                            <div class="partnership-item-img">
+                                                <div class="partnership-item-number"><span>5</span></div><img src="images/icon_computer.png" alt="">
+                                            </div>
+                                            <div class="partnership-item-text"><span>Смотри суммы, начисленные тебе в личном кабинете и выводи их любым удобным тебе способом</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="column small-4">
+                                        <div class="partnership-list-item">
+                                            <form action="post.php" method="post" id="partnership-form" class="partnership-form action-form">
+                                                <div class="partnership-form-title sentence-text"><span>Зарегистрируйся в партнерской программе</span></div>
+                                                <input type="hidden" name="partnership-form[company]">
+                                                <input type="hidden" name="partnership-form[location]" value="Заявка на партнерскую программу">
+                                                <input type="tel" id="partnership-form-tel" required placeholder="Ваш телефон" name="partnership-form[phone]">
+                                                <input type="text" required placeholder="Ваше имя" name="partnership-form[name]">
+                                                <div class="data-check partnercheck">
+                                                    <input type="checkbox" required id="partnercheck">
+                                                    <label for="partnercheck">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с</label>
+                                                    <a href="sources/confidential.pdf"  target="_blank">политикой конфиденциальности</a>
+                                                </div>
+                                                <button class="partnership-form-btn action"><span>ЗАРЕГИСТРИРОВАТЬСЯ</span></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="reviews" class="section-container">
+                <div class="reviews rotate-section">
+                    <div class="reviews-inner section-inner">
+                        <div class="row">
+                            <div class="column small-12">
+                                <h2 class="reviews-title section-title"><span>Эти ребята уже получили свои исправленные телефоны и готовы поделиться<br> своими впечатлениями с Вами</span></h2>
+                                <div class="reviews-container">
+                                    <div class="arrow-left arrow-slider reviews-slider"><img src="images/arrow_left.png" alt=""></div>
+                                    <div class="arrow-right arrow-slider reviews-slider"><img src="images/arrow_right.png" alt=""></div>
+                                    <div class="row">
+                                        <div class="reviews-list-slider">
+                                            <div class="reviews-list-slide">
+                                                <div class="column small-12">
+                                                    <div class="reviews-slide-item">
+                                                        <div class="reviews-item-title"><span>Елена</span></div>
+                                                        <div class="reviews-item-content"><iframe
+                                                         src="https://www.youtube.com/embed/QZ6_ZSRPlbI?loop=1&rel=0" frameborder="0" allowfullscreen></iframe></div><a href="" class="reviews-item-link"><span> </span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="reviews-list-slide">
+                                                <div class="column small-12">
+                                                    <div class="reviews-slide-item">
+                                                        <div class="reviews-item-title"><span>Наталья</span></div>
+                                                        <div class="reviews-item-content"><iframe src="https://www.youtube.com/embed/sJeDSRFtQU0?loop=1&rel=0" frameborder="0" allowfullscreen></iframe></div><a href="" class="reviews-item-link"><span> </span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="reviews-list-slide">
+                                                <div class="column small-12">
+                                                    <div class="reviews-slide-item">
+                                                        <div class="reviews-item-title"><span>Алевтина</span></div>
+                                                        <div class="reviews-item-content"><iframe src="https://www.youtube.com/embed/Rsak7QXG8cA?loop=1&rel=0" frameborder="0" allowfullscreen></iframe></div><a href="" class="reviews-item-link"><span> </span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer id="footer" class="footer">
+                <div class="footer-inner">
+                    <div class="row">
+                        <div class="column small-12">
+                            <div class="footer-title"><span>"iLAB" - быстрая реанимация смартфонов Apple</span></div>
+                            <div class="footer-content">
+                                <p>Компания "iLab" более 5 лет оказывает профессиональные услуги по быстрому и качественному ремонту оригинальных iPhone и iPad в Краснодаре.</p>
+                                <p>Мы уважаем своих клиентов, ценим их время и предоставляем возможность по оптимальной цене восстановить смартфон за 15-30 минут! У нас работают 3 аттестованных мастера, что в отличие от большинства профессиональных компаний позволяет обслуживать клиентов без малейших проволочек с гарантией высокого качества ремонта.</p>
+                            </div>
+                            <div class="footer-contacts">
+                                <div class="footer-logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                                <div class="footer-social">
+                                    <div class="footer-social-inner"><a href="https://api.whatsapp.com/send?phone=79181855535" target="_blank"><img src="images/icon_whatsup.png" alt=""></a><a href="https://t.me/iLab_KRD" target="_blank"><img src="images/icon_telegram.png" alt=""></a><a href="https://vk.com/im?sel=-142631375" target="_blank"><img src="images/icon_vk.png" alt=""></a><a href="https://www.instagram.com/ilab_krasnodar/" target="_blank"><img src="images/icon_insta.png" alt=""></a></div>
+                                </div>
+                                <div class="row large-collapse">
+                                    <div class="column small-3 small-offset-3 show-for-large">
+                                        <div class="footer-contacts-name">
+                                            <p> <a href="#test" class="anchor-link">СТОИМОСТЬ</a></p>
+                                            <p> <a href="#mobile-service" class="anchor-link">ВЫЕЗДНОЙ РЕМОHТ</a></p>
+                                            <p> <a href="#mission" class="anchor-link">НАША МИССИЯ</a></p>
+                                            <p> <a href="sources/confidential.pdf" target="_blank" class="confidential">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="column small-12 medium-8 medium-offset-4 large-6 large-offset-0">
+                                        <div class="footer-contacts-data">
+                                            <p>+7 (918) 18­-555­-35</p>
+                                            <p>УЛ. ГОЛОВАТОГО, 311, ТРЦ “ГАЛЕРЕЯ-2”</p>
+                                            <p>С 10 ДО 22 КАЖДЫЙ ДЕНЬ</p>
+                                            <p class="hide-for-large"><a href="sources/confidential.pdf" target="_blank">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script src="js/vendor/all-vendor-plugins.js"></script>
+            <script src="js/main.js"></script>
+            <script src="js/mapbasics.js" type="text/javascript"></script>
+        </div>
+    </body>
+</html>
