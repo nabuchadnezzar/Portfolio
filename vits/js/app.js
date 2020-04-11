@@ -109,6 +109,5 @@ $(document).ready(function(){
         $('body').removeClass('open-modal');
         $("html,body").css("overflow","auto");
     });
-
 });
 
