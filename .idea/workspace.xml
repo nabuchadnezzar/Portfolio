@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="minified codes">
+    <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/novikova/about.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/novikova/architecture.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/novikova/business_center.html" afterDir="false" />
@@ -109,7 +109,7 @@
           <entry key="css" value="1038" />
           <entry key="html" value="1609" />
           <entry key="js" value="99" />
-          <entry key="txt" value="112" />
+          <entry key="txt" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -117,7 +117,7 @@
           <entry key="CSS" value="1038" />
           <entry key="HTML" value="1609" />
           <entry key="JavaScript" value="99" />
-          <entry key="PLAIN_TEXT" value="112" />
+          <entry key="PLAIN_TEXT" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -152,8 +152,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="240">
+              <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -346,7 +346,7 @@
       <workItem from="1589285314674" duration="2482000" />
       <workItem from="1589295263666" duration="217000" />
       <workItem from="1589876760759" duration="363000" />
-      <workItem from="1589877216318" duration="254000" />
+      <workItem from="1589877216318" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="portolio styling">
       <created>1585734353550</created>
@@ -432,14 +432,22 @@
       <option name="project" value="LOCAL" />
       <updated>1586763021152</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add Novikova to disactive projects">
+      <created>1589877514939</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589877514939</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42487000" />
+    <option name="totallyTimeSpent" value="43016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.117609255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -505,7 +513,8 @@
     <MESSAGE value="add mime types png and jpg to pictures" />
     <MESSAGE value="add attribute &quot;loading&quot; for images" />
     <MESSAGE value="minified codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minified codes" />
+    <MESSAGE value="add Novikova to disactive projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Novikova to disactive projects" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.git/config">
@@ -639,8 +648,8 @@
     <entry file="file://$PROJECT_DIR$/script.js" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="240">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
         </state>
       </provider>
     </entry>
