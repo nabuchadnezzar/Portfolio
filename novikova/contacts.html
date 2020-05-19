@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>Архитектурная студия Маргариты Новиковой</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <section style="background-image: url(images/intro_bg.jpg)" class="main-utp">
+                <header class="header">
+                    <div class="container header-inner"><a href="index.html" class="header-logo"><img src="images/logo.png" alt=""></a>
+                        <nav class="header-menu">
+                            <ul class="header-nav">
+                                <li><a href="about.html">о нас</a></li>
+                                <li class="menu-item-has-children"><a href="architecture.html">архитектура</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item-has-children"><a href="">жилые дома</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="">коттеджи</a></li>
+                                                <li><a href="">жилые многоквартирные здания</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a href="">общественные здания</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="">музеи</a></li>
+                                                <li><a href="">церкви</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a href="">промышленные здания</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="business_center.html">бизнес центры</a></li>
+                                                <li><a href="">администрации</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="">дизайн</a></li>
+                                <li><a href="">арт</a></li>
+                                <li><a href="contacts.html">контакты</a></li>
+                            </ul>
+                        </nav>
+                        <div data-loc="заказать консультацию(кнопка в шапке)" class="header-button modal-button button"><span>заказать консультацию</span></div>
+                        <div class="header-subcontent"><a href="index.html" class="header-description"><span class="orange">Студия архитектуры и дизайна </span><span>маргариты новиковой</span></a>
+                            <div class="header-links">
+                                <div class="header-phone"><span>звоните </span><a href="tel:+79217631888">8-921-763-1-888 </a><span>или</span></div>
+                                <div data-loc="Напишите нам(кнопка в шапке)" class="header-email modal-button">напишите нам</div>
+                            </div>
+                        </div>
+                        <div class="header-trigger"><span></span><span></span><span></span><span></span></div>
+                    </div>
+                </header>
+            </section>
+            <section id="contacts" class="contacts subpage">
+                <div class="container subpage-container subpage-form">
+                    <div class="subpage-headtext">
+                        <div class="title subpage-title"><span>Контакты</span></div>
+                        <div class="subpage-subtitle"><span>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete</span></div>
+                    </div><a href="index.html" class="main-link"><span class="icon-left"></span><span>вернуться на главную</span></a>
+                </div>
+                <div class="container subpage-container map">
+                    <div class="subpage-content-text subpage-form">
+                        <form action="post.php" id="static-form">
+                            <input type="hidden" name="static-form[company]">
+                            <input type="hidden" name="static-form[location]" val="Форма обратной связи на странице контактов" class="input-loc">
+                            <div class="input-block">
+                                <p>Ваше Имя:</p>
+                                <input type="text" name="static-form[name]" placeholder="Павел" required>
+                            </div>
+                            <div class="input-block">
+                                <p>Номер телефона:</p>
+                                <input type="tel" name="static-form[tel]" placeholder="+7 (ххх) ххх хх хх" required>
+                            </div>
+                            <div class="input-block">
+                                <p>Почта:</p>
+                                <input type="email" name="static-form[email]" placeholder="send@email.ru" required>
+                            </div>
+                            <div class="input-block">
+                                <p>Сообщение:</p>
+                                <textarea name="static-form[message]" cols="30" rows="11" placeholder="О чем вы хотите спросить?"></textarea>
+                            </div>
+                            <button class="button static-form-button"><span>Отправить сообщение</span></button>
+                        </form>
+                    </div>
+                    <div class="subpage-info subpage-form">
+                        <div class="subpage-info-block phone">
+                            <div class="subpage-info-title"><span>Телефон:</span></div>
+                            <div class="subpage-info-text"><span>8-921-763-1-888 или </span><span data-loc="Заказать обратный звонок(страница контактов)" class="modal-button">Заказать обратный звонок</span></div>
+                        </div>
+                        <div class="subpage-info-block mail">
+                            <div class="subpage-info-title"><span>Почта:</span></div>
+                            <div class="subpage-info-text"><span>mail@novikova.studio</span></div>
+                        </div>
+                        <div class="subpage-info-block adress">
+                            <div class="subpage-info-title"><span>Адрес студии</span></div>
+                            <div class="subpage-info-text"><span>197110 Россия, г. Санкт-Петербург, <br>Петрозаводская 13</span></div>
+                        </div>
+                        <div class="subpage-info-block map-block">
+                            <div id="map" data-x="59.965205" data-y="30.288146" class="map"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="container footer-inner"><a href="index.html" class="footer-logo"><img src="images/logo.png" alt=""></a>
+                    <div class="footer-copyright"><span>Copyright © 2017. All rights reserved.</span></div>
+                    <div class="footer-social"><a href="" target="_blank" class="icon-vk"></a><a href="" target="_blank" class="icon-fb"></a></div>
+                    <div class="footer-prod"><span>Разработка сайта: </span><a href="https://bbaturin.ru/" target="_blank">Бюро Батурина</a></div>
+                </div>
+                <div class="overlay"></div>
+                <div class="modal-block modal-form">
+                    <div class="modal-close"></div>
+                    <div class="modal-inner">
+                        <div class="modal-title"><span>Заказать консультацию</span></div>
+                        <div class="modal-subtitle"><span>Мы свяжемся с Вами в течении 30 минут</span></div>
+                        <form action="post.php" id="modal-form">
+                            <input type="hidden" name="modal-form[company]">
+                            <input type="hidden" name="modal-form[location]" val="" class="input-loc">
+                            <div class="input-block">
+                                <p>Ваше Имя:</p>
+                                <input type="text" name="modal-form[name]" placeholder="Павел" required>
+                            </div>
+                            <div class="input-block">
+                                <p>Номер телефона:</p>
+                                <input type="tel" name="modal-form[tel]" placeholder="+7 (ххх) ххх хх хх" required>
+                            </div>
+                            <div class="input-block">
+                                <p>Почта:</p>
+                                <input type="email" name="modal-form[email]" placeholder="send@email.ru" required>
+                            </div>
+                            <button class="button static-form-button"><span>Заказать консультацию</span></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-block thank-block">
+                    <div class="modal-inner">
+                        <div class="modal-title"><span>Спасибо!</span></div>
+                        <div class="modal-subtitle"><span>Мы скоро с Вами свяжемся</span></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="js/vendor/all-vendor-plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <script src="js/mapbasics.js" type="text/javascript"></script>
+    </body>
+</html>
