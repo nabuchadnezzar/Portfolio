@@ -234,15 +234,16 @@ select {
   display: block;
   position: absolute;
   border-radius: 50%;
-  border: 1px solid #2e2c2c;
+  border: 1px solid #ffffff;
+  opacity: .15;
   left: 50%;
   bottom: -8px;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 153vw;
-  height: 153vw;
-  z-index: 0;
+  height: 195vw;
+  z-index: -1;
 }
 
 .header-container {
@@ -316,6 +317,7 @@ select {
   width: 100px;
   margin-left: 37px;
   font-size: 12px;
+  font-family: "Gotham Pro";
 }
 
 .header-logo-img {
@@ -355,7 +357,11 @@ select {
 }
 
 .header-phones a {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+}
+
+.header-phones a:last-child {
+  margin-bottom: 13px;
 }
 
 .header-phones-img {
@@ -404,9 +410,27 @@ select {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-size: 245vw;
+  background-image: url(../img/utp-bg-mob.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: -64vw 21vw;
+  background-position: center top;
+}
+
+.utp-bg:before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  opacity: .06;
+  left: 50%;
+  bottom: 29%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 271vw;
+  height: 300vw;
+  z-index: 0;
 }
 
 .utp-container {
@@ -416,7 +440,7 @@ select {
 }
 
 .utp-main {
-  max-width: 400px;
+  max-width: 300px;
   margin: auto;
 }
 
@@ -424,6 +448,7 @@ select {
   font-size: 24px;
   line-height: 1.25;
   margin-bottom: 24px;
+  width: 223px;
 }
 
 .utp-title .italic {
@@ -515,7 +540,7 @@ select {
 }
 
 .utp-condition-item {
-  border: 1px dashed #ffffff;
+  border: 1px dashed #4d4d4d;
   padding: 10px;
   width: 48%;
   border-radius: 5px;
@@ -533,7 +558,8 @@ select {
   }
 
   .header:after {
-    display: none;
+    width: 90vw;
+    height: 40vw;
   }
 
   .header-container {
@@ -579,9 +605,15 @@ select {
   }
 
   .utp-bg {
+    background-image: url(../img/utp-bg.jpg);
     height: 100%;
     background-size: 1920px;
     background-position: 71% top;
+  }
+
+  .utp-bg:before {
+    width: 100vw;
+    height: 100vh;
   }
 
   .utp-container {
@@ -597,6 +629,7 @@ select {
 
   .utp-title {
     font-size: 35px;
+    width: auto;
   }
 
   .utp-title-description {
@@ -654,6 +687,12 @@ select {
     padding: 29px 33px 27px 59px;
   }
 
+  .header:after {
+    bottom: -213px;
+    width: 720px;
+    height: 1090px;
+  }
+
   .header-container {
     padding-top: 20px;
   }
@@ -695,14 +734,12 @@ select {
   }
 
   .header-menu {
+    left: -100vw;
     width: calc(50vw - 300px);
     max-width: none;
-    left: auto;
-    right: 100vw;
   }
 
   .header-menu.active {
-    right: auto;
     left: 0;
   }
 
@@ -710,6 +747,11 @@ select {
     height: 100%;
     background-size: 1920px;
     background-position: center top;
+  }
+
+  .utp-bg:before {
+    width: 1200px;
+    height: 1145px;
   }
 
   .utp-container {
@@ -798,14 +840,15 @@ select {
   }
 }
 
-@media (min-width: 1920px) {
-  .header-menu {
-    width: calc(50vw - 600px);
-  }
-}
-
 @media (min-width: 7688px) {
   .header-phones {
     font-size: 16px;
   }
+}
+
+.webp .utp-bg { background-image: url(../img/utp-bg-mob.webp); }
+
+@media (min-width: 768px) {
+
+  .webp .utp-bg { background-image: url(../img/utp-bg.webp); }
 }
