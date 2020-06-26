@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,10 +93,40 @@
           <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vits/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="1445" column="10" selection-start-line="1445" selection-start-column="10" selection-end-line="1445" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,7 +184,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
     <option name="RESET_MODE" value="HARD" />
@@ -174,11 +203,11 @@
         <option value="$PROJECT_DIR$/vits/css/slick-theme.css" />
         <option value="$PROJECT_DIR$/vits/css/slick.css" />
         <option value="$PROJECT_DIR$/vits/js/app.js" />
-        <option value="$PROJECT_DIR$/vits/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/phoenix/index.html" />
+        <option value="$PROJECT_DIR$/vits/index.html" />
       </list>
     </option>
   </component>
@@ -208,6 +237,11 @@
             <path>
               <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="vits" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,12 +459,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50482000" />
+    <option name="totallyTimeSpent" value="50515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19473007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19730078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -497,7 +532,8 @@
     <MESSAGE value="phoenix" />
     <MESSAGE value="add Novikova to disactive projects" />
     <MESSAGE value="Phoenix css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Phoenix css" />
+    <MESSAGE value="AlbesCenter preview" />
+    <option name="LAST_COMMIT_MESSAGE" value="AlbesCenter preview" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.git/config">
@@ -594,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vits/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3810">
-          <caret line="1439" column="21" selection-start-line="1439" selection-start-column="21" selection-end-line="1439" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/radio/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -638,5 +667,12 @@
     <entry file="file://$PROJECT_DIR$/phoenix/js/jquery-3.2.1.min.js" />
     <entry file="file://$PROJECT_DIR$/phoenix/css/style.css" />
     <entry file="file://$PROJECT_DIR$/phoenix/index.html" />
+    <entry file="file://$PROJECT_DIR$/vits/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="1445" column="10" selection-start-line="1445" selection-start-column="10" selection-end-line="1445" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
