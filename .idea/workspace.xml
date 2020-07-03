@@ -2,7 +2,243 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/albescentr/about-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/calculator-gkl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/calculator-landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/calculator-reechnyi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/calculator-revluki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/grilliato-gl15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/grilliato-gl24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/grilliato-landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/grilliato-triangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/GL24-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/GL24-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/GL24-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/GL24-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/GL24-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/blue-hide-size-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/blue-hide-size-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/blue-hide-size-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/blue-hide-size-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/gl24-suspension.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/gray-hide-size-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/gray-hide-size-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/gray-hide-size-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/gray-hide-size-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/hall-install.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/hall-type-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/hall-type-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/hist-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/hist-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/hist-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/kass-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/kass-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/kass-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/kassetn-hide-edge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/lk-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/manhole-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/manhole-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/manhole-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/manhole-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/manhole-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/podvesnye-scheme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/rectang-edge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/scheme-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/scheme-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/scheme-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/scheme-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/img/triangle-scheme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/kassetnye-hide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/kassetnye-landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/kassetnye-open.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/kassetnye-panels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/lk-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/lk-instruction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/lk-questions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/lk-reserve.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/podvesnye-landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/podvesnye-profil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/reechnye-landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/reechnye-multimodule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/revluki-landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/albescentr/ventfasad.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/about-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/calculator-gkl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/calculator-landing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/calculator-reechnyi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/Oswald-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/Oswald-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/Oswald-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/Oswald-Light.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/Oswald-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/Oswald-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/Oswald-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/Oswald-Medium.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/Oswald-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/Oswald-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/Oswald-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/Oswald-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/PTSans-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/PTSans-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/PTSans-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/PTSans-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/Roboto-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/Roboto-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/Roboto-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/Roboto-Light.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/Wingdings3.woff" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/Wingdings3.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/Wingdings3.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/Wingdings3.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-brands-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-brands-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-brands-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-regular-400.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-regular-400.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-regular-400.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-solid-900.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-solid-900.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-solid-900.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/slick.eot" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/slick.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/slick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/slick.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/slick.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/slick.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/fonts/slick.woff" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/fonts/slick.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/grilliato-gl15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/grilliato-landing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/A100S.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/A100S.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/A100S.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/A50S.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/A50S.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/A50S.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/A95S.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/A95S.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/A95S.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/GL15-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/GL15-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/GL15-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/GL15-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/GL15-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/GL15-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/GL15-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/GL15-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/GL15-8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/about-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/about-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/about-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/calc-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/calc-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/calc-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/catalog-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/catalog-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/catalog-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/catalog-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/catalog-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/catalog-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/catalog-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/catalog-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/catalog-8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/contacts-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/contacts-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/contacts-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/docs-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/docs-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/docs-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gl15-scheme.png" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/gl15-scheme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gl15-scheme.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gl24-scheme.png" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/gl24-scheme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gl24-scheme.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/gril-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/gril-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/gril-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/gril-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/gril-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/gril-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/gril-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/gril-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/gril-9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/gril-9.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/hist-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/hist-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/hist-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/hist-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/hist-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/hist-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/logo.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/main-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/main-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/main-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/map-contacts.png" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/map-contacts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/map-contacts.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/map.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/multimodule-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/multimodule-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/multimodule-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/multimodule-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/multimodule-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/multimodule-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/news-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/news-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/news-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/news-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/news-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/news-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/news-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/news-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/news-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/news-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/news-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/news-4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/portfolio-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/portfolio-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/portfolio-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/portfolio-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/portfolio-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/portfolio-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/portfolio-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/portfolio-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/portfolio-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-10.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-11.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-12.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/reechn-9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/reechn-9.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/stock-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/stock-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/stock-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/stock-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/img/stock-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/img/stock-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/albescentr/js/script.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/reechnye-landing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albescenter/reechnye-multimodule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radio/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/radio/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,46 +323,43 @@
     <session id="-2039736299">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vits/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="1445" column="10" selection-start-line="1445" selection-start-column="10" selection-end-line="1445" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -208,6 +441,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/phoenix/index.html" />
         <option value="$PROJECT_DIR$/vits/index.html" />
+        <option value="$PROJECT_DIR$/albescenter/reechnye-landing.html" />
       </list>
     </option>
   </component>
@@ -231,6 +465,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,13 +476,17 @@
             <path>
               <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="albescentr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="vits" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,12 +504,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Portfolio" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Portfolio\phoenix" />
       <recent name="E:\Portfolio\phoenix\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Portfolio" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,6 +567,8 @@
       <workItem from="1591179865218" duration="32000" />
       <workItem from="1592665062039" duration="109000" />
       <workItem from="1592665839076" duration="254000" />
+      <workItem from="1593421132094" duration="666000" />
+      <workItem from="1593777830589" duration="255000" />
     </task>
     <task id="LOCAL-00001" summary="portolio styling">
       <created>1585734353550</created>
@@ -455,17 +696,23 @@
       <option name="project" value="LOCAL" />
       <updated>1590847046281</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="AlbesCenter preview">
+      <created>1593182054190</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1593182054190</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50515000" />
+    <option name="totallyTimeSpent" value="51599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19730078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20244215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -478,7 +725,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.1495957" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5808625" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18598382" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32884097" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="13" weight="0.32884097" />
@@ -667,10 +914,24 @@
     <entry file="file://$PROJECT_DIR$/phoenix/js/jquery-3.2.1.min.js" />
     <entry file="file://$PROJECT_DIR$/phoenix/css/style.css" />
     <entry file="file://$PROJECT_DIR$/phoenix/index.html" />
+    <entry file="file://$PROJECT_DIR$/albescenter/calculator-gkl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vits/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="1445" column="10" selection-start-line="1445" selection-start-column="10" selection-end-line="1445" selection-end-column="10" />
+        <state relative-caret-position="18">
+          <caret line="1457" column="14" selection-start-line="1457" selection-start-column="14" selection-end-line="1457" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albescenter/reechnye-landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="132" column="53" lean-forward="true" selection-start-line="132" selection-start-column="53" selection-end-line="132" selection-end-column="53" />
         </state>
       </provider>
     </entry>
