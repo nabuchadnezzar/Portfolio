@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="">
+    <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="Removed albes and added link to alumsystem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,55 +88,58 @@
     <session id="-2039736299">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="5" />
+          <entry key="html" value="6" />
           <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="5" />
+          <entry key="HTML" value="6" />
           <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="17" />
+          <entry key="html" value="77" />
           <entry key="js" value="32" />
+          <entry key="txt" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="17" />
+          <entry key="HTML" value="77" />
           <entry key="JavaScript" value="32" />
+          <entry key="PLAIN_TEXT" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.checkout.local" value="3" />
+          <entry key="git.branch.merge" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/albescentr/js/script.js">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="666" lean-forward="true" selection-start-line="666" selection-end-line="666" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -199,7 +203,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
     <option name="RESET_MODE" value="HARD" />
@@ -220,12 +224,12 @@
         <option value="$PROJECT_DIR$/vits/js/app.js" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/phoenix/index.html" />
         <option value="$PROJECT_DIR$/vits/index.html" />
         <option value="$PROJECT_DIR$/albescenter/reechnye-landing.html" />
         <option value="$PROJECT_DIR$/albescentr/js/script.js" />
         <option value="$PROJECT_DIR$/albescentr/js/1.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -256,17 +260,6 @@
             <path>
               <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="albescentr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="albescentr" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,6 +347,10 @@
       <workItem from="1592665839076" duration="254000" />
       <workItem from="1593421132094" duration="666000" />
       <workItem from="1593777830589" duration="255000" />
+      <workItem from="1595423809432" duration="862000" />
+      <workItem from="1595428021652" duration="124000" />
+      <workItem from="1597939779135" duration="376000" />
+      <workItem from="1597940178643" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="portolio styling">
       <created>1585734353550</created>
@@ -495,16 +492,23 @@
       <option name="project" value="LOCAL" />
       <updated>1593778243043</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Removed albes and added link to alumsystem">
+      <created>1595424073300</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1595424073300</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53165000" />
+    <option name="totallyTimeSpent" value="55507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20244215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21272494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -573,7 +577,8 @@
     <MESSAGE value="Phoenix css" />
     <MESSAGE value="AlbesCenter preview" />
     <MESSAGE value="AlbesCenter new pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="AlbesCenter new pages" />
+    <MESSAGE value="Removed albes and added link to alumsystem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed albes and added link to alumsystem" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.git/config">
@@ -694,13 +699,6 @@
     <entry file="file://$PROJECT_DIR$/script.js" />
     <entry file="file://$PROJECT_DIR$/phoenix/js/script.min.js" />
     <entry file="file://$PROJECT_DIR$/phoenix/css/style.min.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/margo/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -715,27 +713,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/albescenter/reechnye-landing.html">
+    <entry file="file://$PROJECT_DIR$/albescenter/reechnye-landing.html" />
+    <entry file="file://$PROJECT_DIR$/albescentr/js/1.html" />
+    <entry file="file://$PROJECT_DIR$/albescentr/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="132" column="53" lean-forward="true" selection-start-line="132" selection-start-column="53" selection-end-line="132" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/albescentr/js/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="25" column="69" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="25" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/albescentr/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="666" lean-forward="true" selection-start-line="666" selection-end-line="666" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
