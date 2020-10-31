@@ -1,0 +1,2429 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Base Landing template</title>
+
+    <meta charset="utf-8">
+    <!--    <base href="//milalevchuk.ru/">-->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Libraries -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+
+
+    <!-- Optionally use as needed. Disabled by default -->
+    <!--    <link rel="stylesheet" href="https://milalevchuk.ru/assets/university/vendor/fancybox3/jquery.fancybox.min.css">-->
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/landing/base-landing.min.css">
+    <link rel="stylesheet" href="css/partial/banner-bottom.min.css">
+    <link rel="stylesheet" href="css/landing/landing-course.min.css">
+
+
+    <meta name="theme-color" content="#d73f75">
+    <meta name="msapplication-navbutton-color" content="#d73f75">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#d73f75">
+
+</head>
+<body>
+
+
+<!-- new header for all -->
+<header class="menu-main">
+
+
+
+    <div class="container">
+        <nav class="menu-mob navbar navbar-expand-lg navbar-light">
+            <!--mob menu start-->
+            <div class="menu-hamburger" id="header_left">
+                <button class="menu_button menu" type="button">
+                    <span class="bar-icon"></span>
+                </button>
+                <nav class="new_menu">
+                    <div class="menu__mob-header">
+                        <img class="navbar-brand__img" src="https://u0.milalevchuk.ru/engine/web/new/img/logo.png?v=5f07591f27dcf" alt="logo">
+                        <img class="menu_button menu-close" src="https://u0.milalevchuk.ru/engine/web/palaina/img/cross.png" alt="close">
+                    </div>
+                    <nav class="navbar navbar-light bg-light">
+                        <form method="get" action="search" class="menu__form-inline form-inline" id="headerSearchForm">
+                            <i class="menu__form-icon fas fa-search"></i>
+                            <input name="query" class="menu__form-control form-control mr-sm-2" type="search" placeholder=""
+                                   aria-label="Search">
+                        </form>
+                    </nav>
+                    <ul>
+                        <div class="accordion" id="accordionMenu">
+
+                            <li class="menu__list nav-item">
+                                <a href="/club/main" class="menu__list-link nav-link">Клуб</a>
+                            </li>
+
+                            <div class="menu__accordion-card card">
+                                <div class="menu__accordion-header card-header" id="headingCourse">
+                                    <h5 class="mb-0">
+                                        <button class="menu__accordion-btn btn btn-link" type="button"
+                                                data-toggle="collapse" data-target="#collapseCourse" aria-expanded="true"
+                                                aria-controls="collapseCourse">
+                                            <li class="menu__list nav-item">
+                                                <a class="menu__list-link nav-link selector-menu">Курс
+                                                    <i aria-hidden="true"
+                                                       class="menu__list-arrow fas fa-chevron-down arrow-menu"></i>
+                                                </a>
+                                            </li>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseCourse" class="collapse" aria-labelledby="headingCourse"
+                                     data-parent="#accordionMenu">
+                                    <div class="menu__accordion-card-body card-body">
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="/kurs">Курс</a>
+                                        </li>
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="/kurs2-lectures">Лекции</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu__accordion-card card">
+                                <div class="menu__accordion-header card-header" id="headingMarathon">
+                                    <h5 class="mb-0">
+                                        <button class="menu__accordion-btn btn btn-link collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseMarathon" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                            <li class="menu__list nav-item">
+                                                <a class="menu__list-link nav-link selector-menu">Марафоны
+                                                    <i aria-hidden="true"
+                                                       class="menu__list-arrow fas fa-chevron-down arrow-menu"></i>
+                                                </a>
+                                            </li>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseMarathon" class="collapse" aria-labelledby="headingMarathon"
+                                     data-parent="#accordionMenu">
+                                    <div class="menu__accordion-card-body card-body">
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="/finance-marathon">Финансы</a>
+                                        </li>
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="/self-esteem">Самооценка</a>
+                                        </li>
+
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="/meets-marathon">Знакомства</a>
+                                        </li>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu__accordion-card card">
+                                <div class="menu__accordion-header card-header" id="headingIntensive">
+                                    <h5 class="mb-0">
+                                        <button class="menu__accordion-btn btn btn-link collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseIntensive"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                            <li class="menu__list nav-item menu__list-link nav-link">
+                                                <a class="menu__list-link nav-link selector-menu">Интенсивы
+                                                    <i aria-hidden="true"
+                                                       class="menu__list-arrow fas fa-chevron-down arrow-menu"></i>
+                                                </a>
+                                            </li>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseIntensive" class="collapse" aria-labelledby="headingIntensive"
+                                     data-parent="#accordionMenu">
+                                    <div class="menu__accordion-card-body card-body">
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="/intensive">Антиманипуляции</a>
+                                        </li>
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="/intensive-love">Про Любовь</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="menu__accordion-card card">
+                                <div class="menu__accordion-header card-header" id="headingShop">
+                                    <h5 class="mb-0">
+                                        <button class="menu__accordion-btn btn btn-link collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseShop"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                            <li class="menu__list nav-item menu__list-link nav-link">
+                                                <a class="menu__list-link nav-link selector-menu">Магазин
+                                                    <i aria-hidden="true"
+                                                       class="menu__list-arrow fas fa-chevron-down arrow-menu"></i>
+                                                </a>
+                                            </li>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseShop" class="collapse" aria-labelledby="headingShop"
+                                     data-parent="#accordionMenu">
+                                    <div class="menu__accordion-card-body card-body">
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="/book">Книга 1</a>
+                                        </li>
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="/diary">Дневник</a>
+                                        </li>
+
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="/box">BOX BY MILA</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <li class="menu__list nav-item">
+                                <a class="menu__list-link nav-link" href="articles/">Статьи</a>
+                            </li>
+
+                            <div class="menu__accordion-card card">
+                                <div class="menu__accordion-header card-header" id="headingReview">
+                                    <h5 class="mb-0">
+                                        <button class="menu__accordion-btn btn btn-link collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseReview"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                            <li class="menu__list nav-item menu__list-link nav-link">
+                                                <a class="menu__list-link nav-link selector-menu">Отзывы
+                                                    <i aria-hidden="true"
+                                                       class="menu__list-arrow fas fa-chevron-down arrow-menu"></i>
+                                                </a>
+                                            </li>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseReview" class="collapse" aria-labelledby="headingReview"
+                                     data-parent="#accordionMenu">
+                                    <div class="menu__accordion-card-body card-body">
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="forum/">Форум</a>
+                                        </li>
+                                        <li class="menu__list nav-item">
+                                            <a class="menu__list-link-inner nav-link" href="feedback">Отзывы</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </ul>
+                </nav>
+            </div>
+            <!--mob menu end-->
+            <a class="navbar-brand" href="https://milalevchuk.ru/">
+                <img class="navbar-brand__img" src="https://u0.milalevchuk.ru/engine/web/new/img/logo.png?v=5f07591f27dcf" alt="Официальный сайт Милы Левчук - эксперта по семейным отношениям ">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="menu__desktop navbar-nav">
+
+                    <li class="menu__list nav-item">
+                        <a href="/club/main" class="menu__list-link nav-link">Клуб</a>
+                    </li>
+
+                    <li class="menu__list nav-item dropdown">
+                        <a class="menu__list-link nav-link" href="#" id="dropdownMenuCourse"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Курс</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuCourse">
+                            <a class="dropdown-item" href="/kurs">Курс</a>
+                            <a class="dropdown-item" href="/kurs2-lectures">Лекции</a>
+                        </div>
+                    </li>
+
+                    <li class="menu__list nav-item dropdown">
+                        <a class="menu__list-link nav-link" href="#" id="dropdownMenuMarathon"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Марафоны</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuMarathon">
+                            <a class="dropdown-item" href="/finance-marathon">Финансы</a>
+                            <a class="dropdown-item" href="/self-esteem">Самооценка</a>
+
+                            <a class="dropdown-item" href="/meets-marathon">Знакомства</a>
+
+                        </div>
+                    </li>
+
+                    <li class="menu__list nav-item dropdown">
+                        <a class="menu__list-link nav-link" href="#" id="dropdownMenuIntensive"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Интенсивы</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuIntensive">
+                            <a class="dropdown-item" href="/intensive">Антиманипуляции</a>
+                            <a class="dropdown-item" href="/intensive-love">Про Любовь</a>
+                        </div>
+                    </li>
+
+                    <li class="menu__list nav-item dropdown">
+                        <a class="menu__list-link nav-link" href="#" id="dropdownMenuShop"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Магазин</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuShop">
+                            <a class="dropdown-item" href="/book">Книга 1</a>
+                            <a class="dropdown-item" href="/diary">Дневник</a>
+
+                            <a class="dropdown-item" href="/box">BOX BY MILA</a>
+                        </div>
+                    </li>
+
+                    <li class="menu__list nav-item">
+                        <a class="menu__list-link nav-link" href="articles/">Статьи</a>
+                    </li>
+
+                    <li class="menu__list nav-item dropdown">
+                        <a class="menu__list-link nav-link" href="#" id="dropdownMenuReview"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Отзывы</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuReview">
+                            <a class="dropdown-item" href="forum/">Форум</a>
+                            <a class="dropdown-item" href="feedback">Отзывы</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- user menu -->
+            <div class="user__menu navbar-right">
+                <ul class="navbar-nav" style="float: right;">
+                    <li class="nav-item mob-none" style="position: relative">
+                        <a class="user__menu-icon nav-link nav-link__bell" href="#" id="milan__toggle">
+                            <i class="fa fa-bell header__second--bell nav-item__hw-bell" aria-hidden="true"
+                               style="margin-top: 4px;"></i>
+                        </a>
+
+                        <div id="milan__messageContainer" class="messages" style="display: none;">
+                            <a href="#" class="messages__btn-delete" id="milan__close">&times</a>
+                            <ul class="messages-lists message-list_bottom" id="milan__messagesList">
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="user__name nav-link dropdown-toggle" href="#"
+                           id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                           aria-expanded="false">
+                            Ника Николаева
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="user__menu-list "><a href="user/?noredirect" class="nav-link user__menu-link">Личный кабинет</a></li>
+                            <li class="user__menu-list "><a href="u/courses" class="nav-link user__menu-link">Мои курсы</a></li>
+                            <li class="user__menu-list "><a href="u/credits" class="nav-link user__menu-link">Мои платежи<br>и рассрочки</a></li>
+                            <li class="user__menu-list "><a href="user/favorites/" class="nav-link user__menu-link">Избранные материалы</a></li>
+                            <li class="user__menu-list "><a href="u/levchuchya-pochta" class="nav-link user__menu-link">Мои открытки</a></li>
+
+                            <hr>
+
+                            <li class="user__menu-list "><a href="u/mentor" class="nav-link user__menu-link">Подруга Плюс</a></li>
+
+                            <li class="user__menu-list "><a href="user/curator-cabinet" class="nav-link user__menu-link">Кураторство</a></li>
+
+                            <li class="user__menu-list "><a href="user/ref/" class="nav-link user__menu-link">Скидки для подруг</a></li>
+                            <li class="user__menu-list "><a href="user/operations/" class="nav-link user__menu-link">История операций</a></li>
+                            <li class="user__menu-list "><a href="user/rules" class="nav-link user__menu-link">Правила сайта</a></li>
+                            <li class="user__menu-list "><a href="user/settings/" class="nav-link user__menu-link">Настройки</a></li>
+                            <li class="user__menu-list"><a href="login?action=auth%2Flogout" class="nav-link user__menu-link">Выход</a></li>
+
+                        </ul>
+                        <div class="user__menu-mob" id="header_right">
+                            <img class="menu_user-button user__name-img" src="https://u0.milalevchuk.ru/uploads/thumb_generate.php?external=https://u0.milalevchuk.ru/uploads/node/u1/files/4bf95c96-6a33-455b-bc40-a7ec8a67a7f3/Avatars2.jpg&w=30&h=30" alt="photo">
+                            <i class="menu_user-button menu__list-arrow fas fa-chevron-down"></i>
+                            <!--mob user menu -->
+                            <nav class="new_menu--right">
+                                <div class="menu__mob-header">
+                                    <div class="menu__mob-header-user">
+                                        <img class="user__name-img" src="https://u0.milalevchuk.ru/uploads/thumb_generate.php?external=https://u0.milalevchuk.ru/uploads/node/u1/files/4bf95c96-6a33-455b-bc40-a7ec8a67a7f3/Avatars2.jpg&w=30&h=30" alt="photo">
+                                        <p class="menu_user-name">Ника Николаева</p>
+                                    </div>
+                                    <i class="menu_user-button menu__list-arrow fas fa-chevron-up"></i>
+                                </div>
+                                <ul class="dropdown-menu user__right-menu">
+                                    <li class="user__menu-list "><a href="user/?noredirect" class="nav-link user__menu-link">Личный кабинет</a></li>
+                                    <li class="user__menu-list "><a href="u/courses" class="nav-link user__menu-link">Мои курсы</a></li>
+                                    <li class="user__menu-list "><a href="u/credits" class="nav-link user__menu-link">Мои платежи<br>и рассрочки</a></li>
+                                    <li class="user__menu-list "><a href="user/favorites/" class="nav-link user__menu-link">Избранные материалы</a></li>
+                                    <li class="user__menu-list "><a href="u/levchuchya-pochta" class="nav-link user__menu-link">Мои открытки</a></li>
+
+                                    <hr>
+
+                                    <li class="user__menu-list "><a href="u/mentor" class="nav-link user__menu-link">Подруга Плюс</a></li>
+
+                                    <li class="user__menu-list "><a href="user/curator-cabinet" class="nav-link user__menu-link">Кураторство</a></li>
+
+                                    <li class="user__menu-list "><a href="user/ref/" class="nav-link user__menu-link">Скидки для подруг</a></li>
+                                    <li class="user__menu-list "><a href="user/operations/" class="nav-link user__menu-link">История операций</a></li>
+                                    <li class="user__menu-list "><a href="user/rules" class="nav-link user__menu-link">Правила сайта</a></li>
+                                    <li class="user__menu-list "><a href="user/settings/" class="nav-link user__menu-link">Настройки</a></li>
+                                    <li class="user__menu-list"><a href="login?action=auth%2Flogout" class="nav-link user__menu-link">Выход</a></li>
+
+                                </ul>
+                            </nav>
+                            <!--mob user menu end-->
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+            <!-- /user menu -->
+
+        </nav>
+    </div>
+</header>
+<!-- /new header for all -->
+
+
+
+
+
+<!-- Content goes here -->
+
+<div class="wrapper base-tpl-landing">
+    <section class="intro">
+        <div class="top-line">
+            <span>Скидка 30% до 5 ноября</span>
+            <span>Скидка 30% до 5 ноября</span>
+            <span>Скидка 30% до 5 ноября</span>
+            <span>Скидка 30% до 5 ноября</span>
+            <span>Скидка 30% до 5 ноября</span>
+            <span>Скидка 30% до 5 ноября</span>
+            <span>Скидка 30% до 5 ноября</span>
+        </div>
+        <div class="container intro-container">
+            <div class="intro-bg">
+                <span>2.0</span>
+            </div>
+            <div class="intro-img">
+                <img src="img/landing-course/intro_img.png" alt="">
+            </div>
+            <div class="intro-content">
+                <div class="intro-subtitle">
+                    <div class="intro-subtitle__info">
+                <span>
+                    На 90% новая версия
+                </span>
+                    </div>
+                    <div class="intro-subtitle__date">
+                <span>
+                    Старт 12 декабря
+                </span>
+                    </div>
+                </div>
+                <h1 class="intro-title">
+                <span>
+                    КАК СТАТЬ ДЕВУШКОЙ-ПЛЮС 2.0
+                </span>
+                </h1>
+                <div class="intro-description">
+                <span>
+                    Изменитесь внтутри, чтобы изменить мир вокруг себя: получить любовь и уважение, которых вы заслуживаете, раскрыть свой потенциал и выйти на новый уровень росознанности
+
+                </span>
+                </div>
+                <div class="intro-timer">
+                    <div class="intro-timer__text">
+                    <span>
+                        Скидка действует:
+                    </span>
+                    </div>
+                    <div class="intro-timer__body">
+                        <div class="intro-timer__list">
+                            <div class="intro-timer__item">
+                                <div class="intro-timer__item-num" id="hours"></div>
+                                <div class="intro-timer__item-text" id="hours-text"></div>
+                            </div>
+                            <div class="intro-timer__item">
+                                <div class="intro-timer__item-num" id="minutes"></div>
+                                <div class="intro-timer__item-text" id="minutes-text"></div>
+                            </div>
+                            <div class="intro-timer__item">
+                                <div class="intro-timer__item-num" id="seconds"></div>
+                                <div class="intro-timer__item-text" id="seconds-text"></div>
+                            </div>
+                        </div>
+                        <div class="intro-timer__button">
+                        <span>
+                            Купить
+                        </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="statistic">
+        <div class="container statistic-container">
+            <div class="statistic-title block-title">
+                <span>Курс уже 5 лет
+                    меняет жизни девушек
+                    к лучшему</span>
+            </div>
+            <div class="statistic-list">
+                <div class="statistic-item">
+                    <div class="statistic-item__num">
+                        <span>
+                            50 000
+                        </span>
+                    </div>
+                    <div class="statistic-item__title">
+                        <span>
+                            Учениц
+                        </span>
+                    </div>
+                </div>
+                <div class="statistic-item">
+                    <div class="statistic-item__num">
+                        <span>
+                            25 000
+                        </span>
+                    </div>
+                    <div class="statistic-item__title">
+                        <span>
+                            Отзывов участниц
+                        </span>
+                    </div>
+                </div>
+                <div class="statistic-item">
+                    <div class="statistic-item__num">
+                        <span>
+                            3 000
+                        </span>
+                    </div>
+                    <div class="statistic-item__title">
+                        <span>
+                            Положительных отзывов от их мужчин
+                        </span>
+                    </div>
+                </div>
+                <div class="statistic-item">
+                    <div class="statistic-item__num">
+                        <span>
+                            24 000
+                        </span>
+                    </div>
+                    <div class="statistic-item__title">
+                        <span>
+                            Спасли брак
+                        </span>
+                    </div>
+                </div>
+                <div class="statistic-item">
+                    <div class="statistic-item__num">
+                        <span>
+                            19 000
+                        </span>
+                    </div>
+                    <div class="statistic-item__title">
+                        <span>
+                            Встретили мужчину
+                            своей мечты
+                        </span>
+                    </div>
+                </div>
+                <div class="statistic-item">
+                    <div class="statistic-item__num">
+                        <span>
+                            6 000
+                        </span>
+                    </div>
+                    <div class="statistic-item__title">
+                        <span>
+                            Вышли замуж
+                        </span>
+                    </div>
+                </div>
+                <div class="statistic-item">
+                    <div class="statistic-item__num">
+                        <span>
+                            11 000
+                        </span>
+                    </div>
+                    <div class="statistic-item__title">
+                        <span>
+                            Нашли любимое дело или
+                            открыли бизнес
+                        </span>
+                    </div>
+                </div>
+                <div class="statistic-item">
+                    <div class="statistic-item__num">
+                        <span>
+                            36 000
+                        </span>
+                    </div>
+                    <div class="statistic-item__title">
+                        <span>
+                            Встретили подруг, с которым дружат после курса
+                        </span>
+                    </div>
+                </div>
+                <div class="statistic-item">
+                    <div class="statistic-item__num">
+                        <span>
+                            27 000
+                        </span>
+                    </div>
+                    <div class="statistic-item__title">
+                        <span>
+                            Улучшили материальное положение
+                        </span>
+                    </div>
+                    <ul>
+                        <li>
+                            <span>
+                                переехали
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                получили в подарок машину, квартиру
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                их мужчины увеличили заработок в неск раз
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="statistic-img">
+                    <img src="img/landing-course/statistic_img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="weeks">
+        <div class="weeks-bg"></div>
+        <div class="container weeks-container">
+            <div class="weeks-content">
+                <div class="weeks-tabs">
+                    <div class="weeks-tab">
+                        <div class="weeks-tab__num">
+                        <span>
+                            1
+                        </span>
+                        </div>
+                        <div class="weeks-tab__text">
+                        <span>
+                            неделя
+                        </span>
+                        </div>
+                    </div>
+                    <div class="weeks-tab">
+                        <div class="weeks-tab__num">
+                        <span>
+                            2
+                        </span>
+                        </div>
+                        <div class="weeks-tab__text">
+                        <span>
+                            неделя
+                        </span>
+                        </div>
+                    </div>
+                    <div class="weeks-tab">
+                        <div class="weeks-tab__num">
+                        <span>
+                            3
+                        </span>
+                        </div>
+                        <div class="weeks-tab__text">
+                        <span>
+                            неделя
+                        </span>
+                        </div>
+                    </div>
+                    <div class="weeks-tab">
+                        <div class="weeks-tab__num">
+                        <span>
+                            4
+                        </span>
+                        </div>
+                        <div class="weeks-tab__text">
+                        <span>
+                            неделя
+                        </span>
+                        </div>
+                    </div>
+                    <div class="weeks-tab">
+                        <div class="weeks-tab__num">
+                        <span>
+                            5
+                        </span>
+                        </div>
+                        <div class="weeks-tab__text">
+                        <span>
+                            неделя
+                        </span>
+                        </div>
+                    </div>
+                    <div class="weeks-tab">
+                        <div class="weeks-tab__num">
+                        <span>
+                            6
+                        </span>
+                        </div>
+                        <div class="weeks-tab__text">
+                        <span>
+                            неделя
+                        </span>
+                        </div>
+                    </div>
+                    <div class="weeks-tab">
+                        <div class="weeks-tab__num">
+                        <span>
+                            7
+                        </span>
+                        </div>
+                        <div class="weeks-tab__text">
+                        <span>
+                            неделя
+                        </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="weeks-list">
+                    <div class="weeks-item">
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                            <span>Что мешает нам стать
+девушкой-плюс</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Потребности
+в семье</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Роль мужчины
+                                        и женщины</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Женсоке
+                                        достоинство</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                                <span>Цель первой недели</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weeks-item">
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                            <span>Что мешает нам стать
+                                девушкой-плюс</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Потребности
+в семье</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Роль мужчины
+                                        и женщины</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Женсоке
+                                        достоинство</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                                <span>Цель первой недели</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weeks-item">
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                            <span>Что мешает нам стать
+                                девушкой-плюс</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Потребности
+в семье</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Роль мужчины
+                                        и женщины</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Женсоке
+                                        достоинство</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                                <span>Цель первой недели</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weeks-item">
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                            <span>Что мешает нам стать
+                                девушкой-плюс</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Потребности
+в семье</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Роль мужчины
+                                        и женщины</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Женсоке
+                                        достоинство</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                                <span>Цель первой недели</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weeks-item">
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                            <span>Что мешает нам стать
+                                девушкой-плюс</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Потребности
+в семье</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Роль мужчины
+                                        и женщины</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Женсоке
+                                        достоинство</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                                <span>Цель первой недели</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weeks-item">
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                            <span>Что мешает нам стать
+                                девушкой-плюс</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Потребности
+в семье</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Роль мужчины
+                                        и женщины</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Женсоке
+                                        достоинство</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                                <span>Цель первой недели</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weeks-item">
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                            <span>Что мешает нам стать
+                                девушкой-плюс</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Потребности
+в семье</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Роль мужчины
+                                        и женщины</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Женсоке
+                                        достоинство</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weeks-block">
+                            <div class="weeks-block__title block-title">
+                                <span>Цель первой недели</span>
+                            </div>
+                            <div class="block-list">
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Три сценария
+                                        поведения</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Энергия
+                                        девушки-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                                <div class="block-item">
+                                    <div class="block-item__title">
+                                    <span>Кто она
+                                        девушка-плюс</span>
+                                    </div>
+                                    <div class="block-item__description">
+                                    <span>Поведение девушек минус,
+                                        ноль и плюс</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discount">
+        <div class="container discount-container">
+            <div class="discount-content">
+                <div class="discount-content__num">
+                    <span>
+                        30
+                    </span>
+                    <span class="sub">
+                        %
+                    </span>
+                </div>
+                <div class="discount-content__text">
+                <span>Скидка на курс при покупке
+                    или бронировании до 5 ноября 2020 года</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="packets">
+        <div class="container packets-container">
+            <div class="packets-content">
+                <div class="packets-services">
+                    <div class="packets-service">
+                        <span>
+Скидка 30%
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Количество мест
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Доступ 3 месяца
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Теория: 50 лекций по 7 темам
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Практика: задания и тесты
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Круг подруг: чат с ученицами
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Тренажеры с кураторами
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Репетиторство
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Личный куратор
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Проверка ДЗ куратором
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Разбор личных ситуаций
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Пробный доступ к членству в клубе
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Интенсив "Про любовь" в подарок
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Проверка ДЗ психологом
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Онлайн-сессии с психологом
+                        </span>
+                    </div>
+                    <div class="packets-service">
+                        <span>
+Проверка заданий от меня
+                        </span>
+                    </div>
+                </div>
+                <div class="packets-list">
+                    <div class="packets-item">
+                        <div class="packets-item__inner">
+                            <div class="packets-item__list">
+                                <div class="packets-item__title">
+                            <span>
+                                Стандарт
+                            </span>
+                                </div>
+                                <div class="packets-item__oldprice">
+                            <span>
+                                13 900
+                            </span>
+                                </div>
+                                <div class="packets-item__price standard">
+                            <span>
+                                9 700
+                            </span>
+                                    <span class="currency">
+                                    ₽
+                                </span>
+                                </div>
+                                <div class="packets-item__service">
+                        <span>
+                            &#8734;
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Доступ 3 месяца
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Теория: 50 лекций по 7 темам
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Практика: задания и тесты
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Круг подруг: чат с ученицами
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Тренажеры с кураторами
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Репетиторство
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+
+                            </div>
+                            <div class="packets-item__actions">
+                                <div class="packets-item__buy">
+                                <span>
+                                    Купить
+                                </span>
+                                </div>
+                                <div class="packets-item__reserve">
+                            <span>
+                                Забронировать
+                            </span>
+                                </div>
+                                <div class="packets-item__installment">
+                            <span>
+                                В рассрочку
+                            </span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </div>
+                                <div class="packets-item__present">
+                            <span>
+                                Купить в подарок
+                            </span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="packets-item">
+                        <div class="packets-item__inner">
+                            <div class="packets-item__list">
+                                <div class="packets-item__title">
+                            <span>
+                                VIP
+                            </span>
+                                </div>
+                                <div class="packets-item__oldprice">
+                            <span>
+                                29 900
+                            </span>
+                                </div>
+                                <div class="packets-item__price vip">
+                            <span>
+                                20 900
+                            </span>
+                                    <span class="currency">
+                                    ₽
+                                </span>
+                                </div>
+                                <div class="packets-item__service">
+                        <span>
+                            30 мест
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Доступ 3 месяца
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Теория: 50 лекций по 7 темам
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Практика: задания и тесты
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Круг подруг: чат с ученицами
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Тренажеры с кураторами
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Репетиторство
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Личный куратор
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Проверка ДЗ куратором
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Разбор личных ситуаций
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Пробный доступ к членству в клубе
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Интенсив "Про любовь" в подарок
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+                            </div>
+                            <div class="packets-item__actions">
+                                <div class="packets-item__buy">
+                            <span>
+                                Купить
+                            </span>
+                                </div>
+                                <div class="packets-item__reserve">
+                            <span>
+                                Забронировать
+                            </span>
+                                </div>
+                                <div class="packets-item__installment">
+                            <span>
+                                В рассрочку
+                            </span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </div>
+                                <div class="packets-item__present">
+                            <span>
+                                Купить в подарок
+                            </span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="packets-item">
+                        <div class="packets-item__inner">
+                            <div class="packets-item__list">
+                                <div class="packets-item__title">
+                            <span>
+                                VIP+
+                            </span>
+                                </div>
+                                <div class="packets-item__oldprice">
+                            <span>
+                                68 900
+                            </span>
+                                </div>
+                                <div class="packets-item__price vip-plus">
+                            <span>
+                                48 200
+                            </span>
+                                    <span class="currency">
+                                    ₽
+                                </span>
+                                </div>
+                                <div class="packets-item__service">
+                        <span>
+                            10 мест
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Доступ 3 месяца
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Теория: 50 лекций по 7 темам
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Практика: задания и тесты
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Круг подруг: чат с ученицами
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Тренажеры с кураторами
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Репетиторство
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Личный куратор
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Проверка ДЗ куратором
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Разбор личных ситуаций
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Пробный доступ к членству в клубе
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Интенсив "Про любовь" в подарок
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Проверка ДЗ психологом
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Онлайн-сессии с психологом
+                        </span>
+                                </div>
+                                <div class="packets-item__service cross">
+                        <span>
+
+                        </span>
+                                </div>
+                            </div>
+                            <div class="packets-item__actions">
+                                <div class="packets-item__buy">
+                            <span>
+                                Купить
+                            </span>
+                                </div>
+                                <div class="packets-item__reserve">
+                            <span>
+                                Забронировать
+                            </span>
+                                </div>
+                                <div class="packets-item__installment">
+                            <span>
+                                В рассрочку
+                            </span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </div>
+                                <div class="packets-item__present">
+                            <span>
+                                Купить в подарок
+                            </span>
+                                    <span class="fa fa-chevron-right"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="packets-item">
+                        <div class="packets-item__inner">
+                            <div class="packets-item__list">
+                                <div class="packets-item__title">
+                            <span>
+                                Платина
+                            </span>
+                                </div>
+                                <div class="packets-item__oldprice">
+                            <span>
+                                150 000
+                            </span>
+                                </div>
+                                <div class="packets-item__price platinum">
+                            <span>
+                                105 000
+                            </span>
+                                    <span class="currency">
+                                    ₽
+                                </span>
+                                </div>
+                                <div class="packets-item__service">
+                        <span>
+                            10 мест
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Доступ 3 месяца
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Теория: 50 лекций по 7 темам
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Практика: задания и тесты
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Круг подруг: чат с ученицами
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Тренажеры с кураторами
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Репетиторство
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Личный куратор
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Проверка ДЗ куратором
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Разбор личных ситуаций
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Пробный доступ к членству в клубе
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Интенсив "Про любовь" в подарок
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Проверка ДЗ психологом
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Онлайн-сессии с психологом
+                        </span>
+                                </div>
+                                <div class="packets-item__service check">
+                        <span>
+                            Проверка заданий от меня
+                        </span>
+                                </div>
+                            </div>
+                            <div class="packets-item__actions">
+                                <div class="packets-item__reserve">
+                            <span>
+                                Оставить заявку
+                            </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="question">
+        <div class="container question-container">
+            <div class="question-img">
+                <img src="img/landing-course/questions_img.png" alt="">
+            </div>
+            <div class="question-content">
+                <div class="question-text">
+                    <div class="question-text__title">
+                    <span>
+                        Остался вопрос?
+                    </span>
+                    </div>
+                    <div class="question-text__description">
+                    <span>
+                        Задай его Василисе, она поможет
+                    </span>
+                    </div>
+                </div>
+                <a href="" class="question-button">
+                <span>
+                    Задать вопрос
+                </span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <section class="oldcourse">
+        <div class="container oldcourse-container">
+            <div class="oldcourse-img">
+                <img src="img/landing-course/course_img.jpg" alt="">
+            </div>
+            <div class="oldcourse-content">
+                <div class="oldcourse-text">
+                    <div class="oldcourse-text__title">
+                    <span>
+                        Не хотите ждать?
+                    </span>
+                    </div>
+                    <div class="oldcourse-text__description">
+                    <span>
+                        Вы можете купить предыдущую версию курса
+"Как стать Девушкой-плюс" в записи и проходить его самостоятельно.
+                    </span>
+                    </div>
+                </div>
+                <a href="" class="oldcourse-button">
+                    <span>
+                        Узнать о курсе
+                    </span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <div class="overlay"></div>
+    <div class="popup popup-installment">
+        <div class="popup-close"></div>
+        <div class="popup-inner">
+            <div class="popup-title">
+
+            </div>
+            <form action="" class="popup-form installment-form" id="installment-form">
+                <input type="hidden" name="packet-cost" class="packet-cost" val="">
+                <input type="hidden" name="packet-name" class="packet-name" val="">
+                <div class="popup-form__block input-block">
+                    <label class="popup-form__email">
+                        <span class="popup-form__text">Email</span>
+                        <input type="email" name="installment-email"  required
+                               placeholder="Email">
+                    </label>
+                    <label class="popup-form__tel">
+                        <span class="popup-form__text">Телефон</span>
+                        <input type="tel" name="installment-tel"  required placeholder="Телефон">
+                    </label>
+                    <label class="popup-form__promo">
+                        <span class="popup-form__text">Есть промокод?</span>
+                        <input type="text" name="installment-promo"  placeholder="Есть промокод?">
+                    </label>
+                </div>
+                <div class="popup-form__block type-radio">
+                    <span class="popup-form__text">Выберите приемлемый вид рассрочки:</span>
+                    <div class="radio-block">
+                        <input type="radio" name="installment-type" value="50x50">
+                        <div class="radio-block__content">
+                            <div class="radio-block__title">50x50</div>
+                            <div class="radio-block__text">2-й платеж
+                                до 28 октября
+                            </div>
+                        </div>
+                    </div>
+                    <div class="radio-block">
+                        <input type="radio" name="installment-type" value="35х35х30">
+                        <div class="radio-block__content">
+                            <div class="radio-block__title">35х35х30</div>
+                            <div class="radio-block__text">2-й платеж до 28 октября
+                                3-й платеж до 11 ноября
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-form__block payment-block">
+                    <span class="popup-form__text">Итоговая сумма:</span>
+                    <div class="payment-block__total">
+                    </div>
+                    <button class="popup-form__button">Оплатить картой</button>
+                    <div class="popup-form__link">
+                        <span>Другие способы</span>
+                        <span class="fa fa-chevron-right"></span>
+                    </div>
+                    <div class="popup-form__payments-container">
+                        <div class="popup-form__payments">
+                            <button class="popup-form__payment">
+                                <img src="img/landing-course/yakassa.svg" alt="">
+                                <span>Якасса</span>
+                            </button>
+                            <button class="popup-form__payment">
+                                <img src="img/landing-course/applepay.svg" alt="">
+                                <span>ApplePay</span>
+                            </button>
+                            <button class="popup-form__payment">
+                                <img src="img/landing-course/gpay.svg" alt="">
+                                <span>GPay</span>
+                            </button>
+                            <button class="popup-form__payment">
+                                <img src="img/landing-course/paypal.svg " alt="">
+                                <span>PayPal</span>
+                            </button>
+                        </div>
+                    </div>
+                    <span class="popup-form__notice">При оплате из России используйте PayPal</span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="popup popup-present">
+        <div class="popup-present__img">
+            <img src="img/landing-course/gift.svg" alt="">
+        </div>
+        <div class="popup-close"></div>
+        <div class="popup-inner">
+            <div class="popup-title">
+                Подарок подруге
+            </div>
+            <form action="" class="popup-form present-form" id="present-form">
+                <input type="hidden" name="packet-cost" class="packet-cost" val="">
+                <input type="hidden" name="packet-name" class="packet-name" val="">
+                <div class="popup-form__block input-block">
+                    <span class="popup-form__text input-block__title">От кого подарок:</span>
+                    <label class="popup-form__name">
+                        <span class="popup-form__text">Имя</span>
+                        <input type="text" name="from-name" required  placeholder="Имя">
+                    </label>
+                    <label class="popup-form__email">
+                        <span class="popup-form__text">Email</span>
+                        <input type="email" name="from-email"  required
+                               placeholder="Email">
+                    </label>
+                    <label class="popup-form__tel">
+                        <span class="popup-form__text">Телефон</span>
+                        <input type="tel" name="from-tel"  required placeholder="Телефон">
+                    </label>
+                </div>
+                <div class="popup-form__block input-block">
+                    <span class="popup-form__text input-block__title">Кому:</span>
+                    <label class="popup-form__name">
+                        <span class="popup-form__text">Имя</span>
+                        <input type="text" name="for-name" required  placeholder="Имя">
+                    </label>
+                    <label class="popup-form__email">
+                        <span class="popup-form__text">Email</span>
+                        <input type="email" name="for-email"  required
+                               placeholder="Email">
+                    </label>
+                </div>
+                <div class="popup-form__block input-block">
+                    <span class="popup-form__text input-block__title">Сообщение получателю:</span>
+                    <label class="popup-form__message">
+                        <textarea name="for-message"></textarea>
+                    </label>
+                </div>
+                <div class="popup-form__block payment-block">
+                    <span class="popup-form__text">Итоговая сумма:</span>
+                    <div class="payment-block__total">
+                    </div>
+                    <button class="popup-form__button">Оплатить картой</button>
+                    <div class="popup-form__link">
+                        <span>Другие способы</span>
+                        <span class="fa fa-chevron-right"></span>
+                    </div>
+                    <div class="popup-form__payments-container">
+                        <div class="popup-form__payments">
+                            <button class="popup-form__payment">
+                                <img src="img/landing-course/yakassa.svg" alt="">
+                                <span>Якасса</span>
+                            </button>
+                            <button class="popup-form__payment">
+                                <img src="img/landing-course/applepay.svg" alt="">
+                                <span>ApplePay</span>
+                            </button>
+                            <button class="popup-form__payment">
+                                <img src="img/landing-course/gpay.svg" alt="">
+                                <span>GPay</span>
+                            </button>
+                            <button class="popup-form__payment">
+                                <img src="img/landing-course/paypal.svg " alt="">
+                                <span>PayPal</span>
+                            </button>
+                        </div>
+                    </div>
+                    <span class="popup-form__notice">При оплате из России используйте PayPal</span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Banner bottom -->
+<article class="br-sale br-fixed-bottom br-sale--pink" data-br="br-sale03">
+    <a href="https://mnlp.cc/mini?domain=milalevchuk&id=27" class="br-sale__link">&nbsp;</a>
+
+    <div class="br-sale__wrapper">
+        <div class="br-sale__label br-sale__label--4"></div>
+
+        <div class="br-sale__middle">
+            <h2 class="br-sale__title">
+                Пробный урок: <br>
+                варианты ведения бюджета
+            </h2>
+            <span class="br-sale__subtitle">
+	        	<span>Аудиоподкасты, чек-лист, медитация</span>
+	        </span>
+        </div>
+
+        <a href="https://mnlp.cc/mini?domain=milalevchuk&id=27" class="br-sale__button">
+            Получить
+        </a>
+    </div>
+    <a href="#" class="js-br-close br-sale__close"></a>
+</article>
+<!-- /Banner bottom -->
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <h4 class="footer__header">Разделы сайта</h4>
+        <div class="footer__first">
+            <div class="col-md-2 col-sm-12">
+                <ul class="footer__first--list">
+                    <li><a class="footer__first--link" href="kurs">Курс</a></li>
+                    <li><a class="footer__first--link" data-toggle="collapse" href="#collapseFooterMarathons"
+                           aria-expanded="false" aria-controls="collapseFooterMarathons">Марафоны</a>
+                        <ul class="footer__collapsed-list collapse mt-0 ml-2 mb-1" id="collapseFooterMarathons">
+                            <li><a class="footer__first--link" href="/self-esteem">Самооценка часть 1</a></li>
+                            <li><a class="footer__first--link" href="/self-esteem2">Самооценка часть 2</a></li>
+                            <li><a class="footer__first--link" href="/gifts-marathon">Подарки</a></li>
+                            <li><a class="footer__first--link" href="/meets-marathon">Знакомства</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="footer__first--link" data-toggle="collapse" href="#collapseFooterIntensives"
+                           aria-expanded="false" aria-controls="collapseFooterIntensives">Интенсивы</a>
+                        <ul class="footer__collapsed-list collapse mt-0 ml-2 mb-1" id="collapseFooterIntensives">
+                            <li><a class="footer__first--link" href="/intensive">Антиманипуляции</a></li>
+                            <li><a class="footer__first--link" href="/intensive-love">Про Любовь</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="footer__first--link" data-toggle="collapse" href="#collapseFooterBooks"
+                           aria-expanded="false" aria-controls="collapseFooterBooks">Книги</a>
+                        <ul class="footer__collapsed-list collapse mt-0 ml-2 mb-1" id="collapseFooterBooks">
+                            <li><a class="footer__first--link" href="book">Книга</a></li>
+                            <li><a class="footer__first--link" href="diary">Дневник</a></li>
+                            <li><a class="footer__first--link" href="set">Подарочный набор</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="footer__first--link" href="/recommend">Рекомендации</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <ul class="footer__first--list-sec">
+                    <li><a class="footer__first--link" href="contacts">Тех поддержка</a></li>
+                    <li><a class="footer__first--link" href="contacts">Контакты</a></li>
+                    <li><a class="footer__first--link" href="law">Юридическая информация</a></li>
+                    <li><a class="footer__first--link" href="https://u0.milalevchuk.ru/uploads/prj/pages/course/conf.pdf?v=5f07591f27dcf" target="_blank">Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 offset-md-2 col-sm-12">
+                <div class="alert alert-typo">Нашли опечатку? Выделите текст и нажмите <span class="badge badge-dark" id="typoctrltrigger" data-toggle="modal" data-target="#typoModal">Ctrl</span> + <span class="badge badge-dark">Enter</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer__second">
+            <div class="col-md-6 col-sm-12">
+                <ul class="footer__second--list">
+                    <li><a class="footer__second--link" href="!#"><i class="fa fa-cc-visa" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a class="footer__second--link" href="!#"><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a class="footer__second--link" href="!#"><i class="fa fa-viadeo-square" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a class="footer__second--link" href="!#"><img src="https://u0.milalevchuk.ru/engine/web/palaina/img/yandex.png" alt="yandex"></a></li>
+                    <li><a class="footer__second--link" href="!#"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a class="footer__second--link" href="!#"><img src="https://u0.milalevchuk.ru/engine/web/palaina/img/webmoney.png" alt="webmoney"></a>
+                    </li>
+                    <li><a class="footer__second--link" href="!#"><img src="https://u0.milalevchuk.ru/engine/web/palaina/img/mir.png" alt="webmoney"></a></li>
+                </ul>
+                <div class="info">
+                    <p>ИП Левчук Людмила Николаевна <span class="info-high">огрнип 314784701701072</span></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+
+                <div class="copyright">
+                    <p>milalevchuk.ru (c) 2015-2020. <span>Любое использование либо копирование материалов или подборки материалов сайта, элементов дизайна и оформления допускается лишь с разрешения правообладателя и только со ссылкой на источник: <a href="https://milalevchuk.ru" class="text-white">milalevchuk.ru</a></span></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+<!-- /Footer -->
+
+<!-- Typo form -->
+<div id="typoModal" class="modal fade">
+    <div class="modal-dialog">
+        <form method="post" class="modal-content ajax_form" id="typoform">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Сообщить об ошибке на странице</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" name="user" value="79436">
+                <input type="hidden" name="browser" value="">
+                <input type="hidden" name="device" value="">
+                <input type="hidden" name="url" value="https://milalevchuk.ru/kurs2-lectures/support-man">
+                <input type="text" style="display:none;" name="friend" value="">
+                <div class="form-group">
+                    <label>Текст сообщения</label>
+                    <textarea id="typo_message_area" name="message" required placeholder="" rows="5" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" name="typosend" value="true" class="btn btn-success">Отправить</button>
+            </div>
+
+            <input type="hidden" name="af_action" value="c4d03afc53f454a59ce1637ed72f4910" />
+        </form>
+    </div>
+</div>
+<!-- /Typo form -->
+
+
+<!-- Socket and jQuery -->
+<script>var milaw_user = '79436';</script>
+<script>var milan_phpsessid = '68b595f4c81e22fb888ff7ae3325e99e';</script>
+<script src="https://cb.milalevchuk.ru/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://u0.milalevchuk.ru/engine/web/view/js/socket.js?v=5f07591f27dcf"></script>
+
+
+<!-- Bootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+
+<!-- Custom -->
+<script src="js/landing/base-landing.min.js"></script>
+<script src="js/landing/landing-course.min.js"></script>
+
+
+
+<!-- Typo Ctrl+Enter -->
+<script src="//js.frubil.info/"></script>
+<script src="https://u0.milalevchuk.ru/engine/web/view/js/typo.js?v=5f07591f27dcf"></script>
+<!-- /Typo Ctrl+Enter -->
+
+
+<!-- Counters and JivoChat goes here -->
+
+
+<!-- Optionally use as needed. Disabled by default -->
+<!--<script src="https://milalevchuk.ru/assets/university/vendor/fancybox3/jquery.fancybox.min.js?v=5f07591f27dcf"></script>-->
+
+
+<!-- On page scripts goes here -->
+<script>
+    // On page scripts goes here
+</script>
+
+
+<!-- Notifications -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.5.3/jquery.timeago.min.js"></script>
+<script type="text/javascript" src="https://milalevchuk.ru/assets/mtemplate/js/jquery.timeago.ru.js?v=5f07591f27dcf"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.80/jsrender.min.js"></script>
+<script type="text/javascript" src="https://u0.milalevchuk.ru/engine/web/view/js/notifications2.min.js?v=5f07591f27dcf"></script>
+
+
+<!-- From CMS component Ajaxform -->
+<script type="text/javascript" src="https://milalevchuk.ru/assets/components/ajaxform/js/default.js"></script>
+<script type="text/javascript">AjaxForm.initialize({"assetsUrl":"https:\/\/milalevchuk.ru\/assets\/components\/ajaxform\/","actionUrl":"\/assets\/components\/ajaxform\/action.php","closeMessage":"\u0437\u0430\u043a\u0440\u044b\u0442\u044c \u0432\u0441\u0435","formSelector":"form.ajax_form","pageId":27638});</script>
+
+</body>
+</html>
