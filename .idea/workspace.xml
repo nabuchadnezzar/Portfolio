@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="tpl landing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tpl-landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tpl-landing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpl-landing/css/landing/landing-course.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/tpl-landing/css/landing/landing-course.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +102,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
+          <entry key="css" value="6" />
           <entry key="html" value="10" />
           <entry key="jpg" value="2" />
           <entry key="js" value="3" />
@@ -111,7 +111,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
+          <entry key="CSS" value="6" />
           <entry key="HTML" value="10" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="3" />
@@ -120,16 +120,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2" />
-          <entry key="html" value="102" />
+          <entry key="css" value="7" />
+          <entry key="html" value="103" />
           <entry key="js" value="32" />
           <entry key="txt" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="102" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="103" />
           <entry key="JavaScript" value="32" />
           <entry key="PLAIN_TEXT" value="57" />
         </counts>
@@ -144,11 +144,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tpl-landing/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="360">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl-landing/img/landing-course/gift.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tpl-landing/js/landing/landing-course.min.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tpl-landing/css/landing/landing-course.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2106">
+              <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -166,8 +185,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>target=&quot;_blank&quot;&gt;</find>
-      <find>&quot;images/&quot;</find>
       <find>.4</find>
       <find>hre href</find>
       <find>vk-vidget</find>
@@ -196,6 +213,8 @@
       <find>landing-cou</find>
       <find>landing-course.</find>
       <find>img</find>
+      <find>url(../.</find>
+      <find>woff2)</find>
     </findStrings>
     <replaceStrings>
       <replace>href=</replace>
@@ -206,6 +225,8 @@
       <replace>srcset=&quot;images/</replace>
       <replace>alt=&quot;&quot; loading=&quot;lazy&quot;&gt;</replace>
       <replace>​https://nabuchadnezzar.github.io/Portfolio/albescentr/</replace>
+      <replace>url('../.</replace>
+      <replace>woff2')</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -239,8 +260,8 @@
         <option value="$PROJECT_DIR$/albescentr/js/script.js" />
         <option value="$PROJECT_DIR$/albescentr/js/1.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/tpl-landing/css/landing/landing-course.min.css" />
         <option value="$PROJECT_DIR$/tpl-landing/index.html" />
+        <option value="$PROJECT_DIR$/tpl-landing/css/landing/landing-course.min.css" />
       </list>
     </option>
   </component>
@@ -281,20 +302,20 @@
               <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="tpl-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="tpl-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="tpl-landing" type="462c0819:PsiDirectoryNode" />
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="tpl-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="tpl-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="landing-course" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -582,11 +603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604175686295</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="tpl landing">
+      <created>1604176007121</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1604176007121</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57062000" />
+    <option name="totallyTimeSpent" value="57582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -810,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tpl-landing/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="360">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -828,10 +856,18 @@
     <entry file="file://$PROJECT_DIR$/tpl-landing/js/landing/landing-course.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/margo/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erelmma/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/tpl-landing/css/landing/landing-course.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        <state relative-caret-position="2106">
+          <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
         </state>
       </provider>
     </entry>
