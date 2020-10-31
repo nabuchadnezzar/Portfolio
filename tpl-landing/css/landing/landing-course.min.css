@@ -46,63 +46,63 @@
 
 @font-face {
     font-family: 'GothamPro-Black';
-    src: url('../../fonts/GothamPro-Black.eot');
-    src: url('../../fonts/GothamPro-Black.woff') format('woff'),
-    url('../../fonts/GothamPro-Black.ttf') format('truetype'),
-    url('../../fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype');
+    src: url('../../fonts/Gotham/GothamPro-Black.eot');
+    src: url('../../fonts/Gotham/GothamPro-Black.woff') format('woff'),
+    url('../../fonts/Gotham/GothamPro-Black.ttf') format('truetype'),
+    url('../../fonts/Gotham/GothamPro-Black.eot?#iefix') format('embedded-opentype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'GothamPro-Bold';
-    src: url('../../fonts/GothamPro-Bold.eot');
-    src: url('../../fonts/GothamPro-Bold.woff2') format('woff2'),
-    url('../../fonts/GothamPro-Bold.woff') format('woff'),
-    url('../../fonts/GothamPro-Bold.ttf') format('truetype'),
-    url('../../fonts/GothamPro-Bold.svg#GothamPro-Bold') format('svg'),
-    url('../../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype');
+    src: url('../../fonts/Gotham/GothamPro-Bold.eot');
+    src: url('../../fonts/Gotham/GothamPro-Bold.woff2') format('woff2'),
+    url('../../fonts/Gotham/GothamPro-Bold.woff') format('woff'),
+    url('../../fonts/Gotham/GothamPro-Bold.ttf') format('truetype'),
+    url('../../fonts/Gotham/GothamPro-Bold.svg#GothamPro-Bold') format('svg'),
+    url('../../fonts/Gotham/GothamPro-Bold.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'GothamPro-Light';
-    src: url('../../fonts/GothamPro-Light.eot');
-    src: url('../../fonts/GothamPro-Light.woff') format('woff'),
-    url('../../fonts/GothamPro-Light.ttf') format('truetype'),
-    url('../../fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype');
+    src: url('../../fonts/Gotham/GothamPro-Light.eot');
+    src: url('../../fonts/Gotham/GothamPro-Light.woff') format('woff'),
+    url('../../fonts/Gotham/GothamPro-Light.ttf') format('truetype'),
+    url('../../fonts/Gotham/GothamPro-Light.eot?#iefix') format('embedded-opentype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'GothamPro-Medium';
-    src: url('../../fonts/GothamPro-Medium.eot');
-    src: url('../../fonts/GothamPro-Medium.woff2') format('woff2'),
-    url('../../fonts/GothamPro-Medium.woff') format('woff'),
-    url('../../fonts/GothamPro-Medium.ttf') format('truetype'),
-    url('../../fonts/GothamPro-Medium.svg#GothamPro-Medium') format('svg'),
-    url('../../fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype');
+    src: url('../../fonts/Gotham/GothamPro-Medium.eot');
+    src: url('../../fonts/Gotham/GothamPro-Medium.woff2') format('woff2'),
+    url('../../fonts/Gotham/GothamPro-Medium.woff') format('woff'),
+    url('../../fonts/Gotham/GothamPro-Medium.ttf') format('truetype'),
+    url('../../fonts/Gotham/GothamPro-Medium.svg#GothamPro-Medium') format('svg'),
+    url('../../fonts/Gotham/GothamPro-Medium.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'GothamPro-Narrow-Medium';
-    src: url('../../fonts/GothamPro-Narrow-Medium.ttf') format('truetype');
+    src: url('../../fonts/Gotham/GothamPro-Narrow-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'GothamPro';
-    src: url('../../fonts/GothamPro.eot');
-    src: url('../../fonts/GothamPro.woff2') format('woff2'),
-    url('../../fonts/GothamPro.woff') format('woff'),
-    url('../../fonts/GothamPro.ttf') format('truetype'),
-    url('../../fonts/GothamPro.svg#GothamPro') format('svg'),
-    url('../../fonts/GothamPro.eot?#iefix') format('embedded-opentype');
+    src: url('../../fonts/Gotham/GothamPro.eot');
+    src: url('../../fonts/Gotham/GothamPro.woff2') format('woff2'),
+    url('../../fonts/Gotham/GothamPro.woff') format('woff'),
+    url('../../fonts/Gotham/GothamPro.ttf') format('truetype'),
+    url('../../fonts/Gotham/GothamPro.svg#GothamPro') format('svg'),
+    url('../../fonts/Gotham/GothamPro.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -110,7 +110,9 @@
 
 
 body {
-    background: #fff
+    background: #fff;
+    color: #000000;
+    font-family: 'GothamPro';
 }
 
 body.iosBugFixCaret.open-modal {
