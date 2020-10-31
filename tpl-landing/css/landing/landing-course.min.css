@@ -110,7 +110,9 @@
 
 
 body {
-    background: #fff
+    background: #fff;
+    color: #000000;
+    font-family: 'GothamPro';
 }
 
 body.iosBugFixCaret.open-modal {

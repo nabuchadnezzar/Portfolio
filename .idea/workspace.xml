@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="tpl landing">
+    <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tpl-landing/css/landing/landing-course.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/tpl-landing/css/landing/landing-course.min.css" afterDir="false" />
     </list>
@@ -102,25 +102,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
-          <entry key="html" value="10" />
+          <entry key="css" value="8" />
+          <entry key="html" value="11" />
           <entry key="jpg" value="2" />
-          <entry key="js" value="3" />
-          <entry key="svg" value="2" />
+          <entry key="js" value="4" />
+          <entry key="svg" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="10" />
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="11" />
           <entry key="Image" value="2" />
-          <entry key="JavaScript" value="3" />
-          <entry key="SVG" value="2" />
+          <entry key="JavaScript" value="4" />
+          <entry key="SVG" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="7" />
+          <entry key="css" value="27" />
           <entry key="html" value="103" />
           <entry key="js" value="32" />
           <entry key="txt" value="57" />
@@ -128,7 +128,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="7" />
+          <entry key="CSS" value="27" />
           <entry key="HTML" value="103" />
           <entry key="JavaScript" value="32" />
           <entry key="PLAIN_TEXT" value="57" />
@@ -136,7 +136,7 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="6" />
+          <entry key="git.branch.checkout.local" value="7" />
           <entry key="git.branch.merge" value="4" />
         </counts>
       </usages-collector>
@@ -148,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/tpl-landing/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -166,8 +166,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tpl-landing/css/landing/landing-course.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2106">
-              <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+            <state relative-caret-position="190">
+              <caret line="117" column="32" lean-forward="true" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -185,7 +185,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.4</find>
       <find>hre href</find>
       <find>vk-vidget</find>
       <find>100vh</find>
@@ -215,6 +214,7 @@
       <find>img</find>
       <find>url(../.</find>
       <find>woff2)</find>
+      <find>url('../../fonts/Go</find>
     </findStrings>
     <replaceStrings>
       <replace>href=</replace>
@@ -227,6 +227,7 @@
       <replace>​https://nabuchadnezzar.github.io/Portfolio/albescentr/</replace>
       <replace>url('../.</replace>
       <replace>woff2')</replace>
+      <replace>url('../../fonts/Gotham/Go</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -610,11 +611,25 @@
       <option name="project" value="LOCAL" />
       <updated>1604176007121</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="tpl landing">
+      <created>1604176667074</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1604176667074</updated>
+    </task>
+    <task id="LOCAL-00030" summary="tpl landing">
+      <created>1604176830452</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1604176830452</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57582000" />
+    <option name="totallyTimeSpent" value="57917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -690,6 +705,7 @@
     <MESSAGE value="AlbesCenter preview" />
     <MESSAGE value="AlbesCenter new pages" />
     <MESSAGE value="Removed albes and added link to alumsystem" />
+    <MESSAGE value="include fonts fix" />
     <MESSAGE value="tpl landing" />
     <option name="LAST_COMMIT_MESSAGE" value="tpl landing" />
   </component>
@@ -836,25 +852,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tpl-landing/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl-landing/img/landing-course/gift.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tpl-landing/fonts/Gotham/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="63" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl-landing/js/landing/landing-course.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/margo/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -864,10 +867,23 @@
     <entry file="file://$PROJECT_DIR$/erelmma/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/tpl-landing/img/landing-course/gift.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl-landing/js/landing/landing-course.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl-landing/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tpl-landing/css/landing/landing-course.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="107" column="23" lean-forward="true" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+        <state relative-caret-position="190">
+          <caret line="117" column="32" lean-forward="true" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
         </state>
       </provider>
     </entry>
