@@ -501,6 +501,7 @@ ymaps.ready(function () {
             iconImageOffset: [-5, -25]
         });
 
+
     myMap.geoObjects
         .add(myPlacemark);
     myMap.behaviors.disable('scrollZoom');
