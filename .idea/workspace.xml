@@ -1,123 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="Fixes, yamap, eng version">
-      <change afterPath="$PROJECT_DIR$/riada/en/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/en/finance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/en/img/place-marker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/en/img/riada-marker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/en/js/icon_customImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/en/leasing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/factoring.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/finance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Roboto-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Roboto-Light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Roboto-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Roboto-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Roboto-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Roboto-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Roboto-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/RobotoCondensed-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/RobotoCondensed-Light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/RobotoCondensed-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/RobotoCondensed-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/RobotoCondensed-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/RobotoCondensed-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/RobotoCondensed-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/RobotoCondensed-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/RobotoCondensed-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/RobotoCondensed-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Medium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/fonts/Ubuntu-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/img/icon-pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/img/icon-zip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/img/lighthouse-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/img/lighthouse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/img/logo-gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/img/place-marker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/img/riada-marker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/img/ship.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/img/squares.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/img/wheel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/js/icon_customImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/js/script.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/leasing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riada/ru/login.html" afterDir="false" />
+    <list default="true" id="f6dd6679-7b5d-4203-8119-c7ddad7fc07a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/factoring.html" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/factoring.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Roboto-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Roboto-Light.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Roboto-Light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Roboto-Light.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Roboto-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Roboto-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Roboto-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Roboto-Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Roboto-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Roboto-Light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Roboto-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Roboto-Regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Roboto-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Roboto-Regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Roboto-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Roboto-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Roboto-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Roboto-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Roboto-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/RobotoCondensed-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/RobotoCondensed-Light.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/RobotoCondensed-Light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/RobotoCondensed-Light.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/RobotoCondensed-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/RobotoCondensed-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/RobotoCondensed-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/RobotoCondensed-Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/RobotoCondensed-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/RobotoCondensed-Light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/RobotoCondensed-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/RobotoCondensed-Regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/RobotoCondensed-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/RobotoCondensed-Regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/RobotoCondensed-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/RobotoCondensed-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/RobotoCondensed-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/RobotoCondensed-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/RobotoCondensed-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/RobotoCondensed-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Bold.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Medium.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Medium.svg" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Medium.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/fonts/Ubuntu-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/fonts/Ubuntu-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/img/icon-pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/img/icon-pdf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/img/icon-zip.png" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/img/icon-zip.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/img/lighthouse-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/img/lighthouse-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/img/lighthouse.png" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/img/lighthouse.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/img/logo-gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/img/logo-gray.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/img/ship.png" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/img/ship.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/img/squares.png" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/img/squares.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/img/wheel.png" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/img/wheel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/js/script.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/riada/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/riada/en/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +105,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="14" />
-          <entry key="html" value="44" />
+          <entry key="html" value="57" />
           <entry key="jpg" value="2" />
           <entry key="js" value="6" />
           <entry key="svg" value="4" />
@@ -229,7 +114,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="14" />
-          <entry key="HTML" value="44" />
+          <entry key="HTML" value="57" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="6" />
           <entry key="SVG" value="4" />
@@ -238,7 +123,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="28" />
-          <entry key="html" value="509" />
+          <entry key="html" value="535" />
           <entry key="js" value="32" />
           <entry key="txt" value="117" />
         </counts>
@@ -246,15 +131,15 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="28" />
-          <entry key="HTML" value="509" />
+          <entry key="HTML" value="535" />
           <entry key="JavaScript" value="32" />
           <entry key="PLAIN_TEXT" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="10" />
-          <entry key="git.branch.merge" value="8" />
+          <entry key="git.branch.checkout.local" value="11" />
+          <entry key="git.branch.merge" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -264,8 +149,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/riada/en/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="342">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -369,17 +254,17 @@
         <option value="$PROJECT_DIR$/riada/index.html" />
         <option value="$PROJECT_DIR$/riada/factoring.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/riada/en/contacts.html" />
+        <option value="$PROJECT_DIR$/riada/en/factoring.html" />
+        <option value="$PROJECT_DIR$/riada/en/finance.html" />
+        <option value="$PROJECT_DIR$/riada/en/index.html" />
+        <option value="$PROJECT_DIR$/riada/en/leasing.html" />
         <option value="$PROJECT_DIR$/riada/ru/contacts.html" />
         <option value="$PROJECT_DIR$/riada/ru/factoring.html" />
         <option value="$PROJECT_DIR$/riada/ru/finance.html" />
         <option value="$PROJECT_DIR$/riada/ru/index.html" />
         <option value="$PROJECT_DIR$/riada/ru/leasing.html" />
         <option value="$PROJECT_DIR$/riada/ru/login.html" />
-        <option value="$PROJECT_DIR$/riada/en/contacts.html" />
-        <option value="$PROJECT_DIR$/riada/en/factoring.html" />
-        <option value="$PROJECT_DIR$/riada/en/finance.html" />
-        <option value="$PROJECT_DIR$/riada/en/index.html" />
-        <option value="$PROJECT_DIR$/riada/en/leasing.html" />
         <option value="$PROJECT_DIR$/riada/en/login.html" />
       </list>
     </option>
@@ -421,7 +306,7 @@
               <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="riada" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -444,16 +329,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Portfolio\riada\ru" />
+      <recent name="E:\Portfolio" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Portfolio\riada\en" />
       <recent name="F:\Portfolio\riada" />
       <recent name="F:\Portfolio\albes" />
       <recent name="F:\Portfolio\tpl-landing\img" />
       <recent name="F:\Portfolio\tpl-landing\fonts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Portfolio\riada\ru" />
-      <recent name="E:\Portfolio" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -827,15 +712,42 @@
       <option name="project" value="LOCAL" />
       <updated>1605189572273</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Fixes, yamap, eng version">
+      <created>1605204176361</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1605204176361</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Fixes, yamap, eng version">
+      <created>1605204203286</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1605204203286</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Fixes, yamap, eng version">
+      <created>1605204397331</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1605204397331</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Fixes, yamap, eng version">
+      <created>1605204437168</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1605204437168</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68457000" />
+    <option name="totallyTimeSpent" value="69085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2506427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -914,7 +826,8 @@
     <MESSAGE value="riada" />
     <MESSAGE value="riada page factoring" />
     <MESSAGE value="riada all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="riada all pages" />
+    <MESSAGE value="Fixes, yamap, eng version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes, yamap, eng version" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ilab/fonts/OpenSans-Regular.svg">
@@ -1053,69 +966,27 @@
     <entry file="file://$PROJECT_DIR$/riada/en/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riada/ru/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riada/ru/factoring.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riada/ru/finance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riada/ru/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riada/ru/leasing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/riada/ru/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/riada/en/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="342">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/riada/en/factoring.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -1125,7 +996,17 @@
     <entry file="file://$PROJECT_DIR$/riada/en/finance.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/riada/en/leasing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -1134,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/riada/en/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="342">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1146,20 +1027,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/riada/en/leasing.html">
+    <entry file="file://$PROJECT_DIR$/riada/ru/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/riada/ru/factoring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/riada/ru/finance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/riada/ru/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/riada/ru/leasing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/riada/ru/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/riada/en/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="342">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
