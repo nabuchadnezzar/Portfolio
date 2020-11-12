@@ -473,3 +473,35 @@ $( document ).ready(function() {
     });
 
 });
+
+
+
+ymaps.ready(function () {
+    var myMap = new ymaps.Map('map', {
+            center: [55.740173, 37.654933],
+            zoom: 17
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+
+
+        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+            hintContent: 'Воронцовская улица, 4с1',
+            balloonContent: 'Воронцовская улица, 4с1'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: '../img/riada-marker.svg',
+            // Размеры метки.
+            iconImageSize: [25, 32],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-5, -25]
+        });
+
+    myMap.geoObjects
+        .add(myPlacemark);
+    myMap.behaviors.disable('scrollZoom');
+});
