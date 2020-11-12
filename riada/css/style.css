@@ -1079,6 +1079,105 @@ textarea {
   text-decoration: underline;
 }
 
+.factoring-description {
+  padding: 40px 0;
+}
+
+.factoring-description-text {
+  line-height: 1.35;
+}
+
+.factoring-description-text p {
+  margin-bottom: 20px;
+}
+
+.factoring-description-text p:last-child {
+  margin-bottom: 0;
+}
+
+.factoring-type-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.factoring-type-item {
+  margin-bottom: 40px;
+  padding: 0 15px;
+  max-width: 320px;
+  width: 100%;
+}
+
+.factoring-item-title {
+  font-family: 'Ubuntu-Medium';
+  margin-bottom: 20px;
+  color: #315EFB;
+}
+
+.factoring-item-description {
+  font-family: 'RobotoCondensed-Light';
+  line-height: 1.5;
+}
+
+.factoring-type-img {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.factoring-type-img img {
+  max-width: 320px;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  bottom: 0;
+}
+
+.factoring-type-img.left-item img {
+  right: 0;
+}
+
+.factoring-type-img.left-item:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100vw;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: #315EFB;
+  right: 0;
+}
+
+.factoring-type-img.right-item img {
+  left: 0;
+}
+
+.factoring-type-img.right-item:before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100vw;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: #315EFB;
+  left: 0;
+}
+
 .footer {
   background: #343B4C;
   width: 100%;
@@ -1418,6 +1517,18 @@ textarea {
     padding-right: 10%;
   }
 
+  .factoring-description {
+    padding: 40px 0 60px;
+  }
+
+  .factoring-description-text {
+    font-size: 16px;
+  }
+
+  .factoring-item-description {
+    font-size: 16px;
+  }
+
   .footer {
     font-size: 16px;
     padding: 20px 0;
@@ -1573,6 +1684,35 @@ textarea {
 
   .about-inner {
     padding-left: 32.2%;
+  }
+
+  .factoring-description {
+    padding: 20px 0 90px;
+  }
+
+  .factoring-description-text {
+    padding-left: 27%;
+  }
+
+  .factoring-type-item {
+    width: 25%;
+    margin-bottom: 120px;
+  }
+
+  .factoring-type-item:nth-child(3) {
+    margin-right: 25%;
+  }
+
+  .factoring-type-img {
+    width: 25%;
+  }
+
+  .factoring-type-img.left-item:before {
+    right: 10%;
+  }
+
+  .factoring-type-img.right-item:before {
+    left: 10%;
   }
 
   .footer {
@@ -1792,6 +1932,92 @@ textarea {
 
   .about-inner {
     padding-right: 10%;
+  }
+
+  .factoring-description {
+    padding: 17px 0 134px;
+  }
+
+  .factoring-description-text {
+    padding-left: 25.5%;
+    padding-right: 97px;
+  }
+
+  .factoring-description-text p {
+    margin-bottom: 45px;
+  }
+
+  .factoring-description-text p:last-child {
+    margin-bottom: 0;
+  }
+
+  .factoring-type-list {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .factoring-type-item {
+    padding: 0;
+    width: 23.6%;
+    margin-right: 20px;
+    margin-bottom: 210px;
+  }
+
+  .factoring-type-item:nth-child(3) {
+    margin-right: 10%;
+  }
+
+  .factoring-type-item:nth-child(7) {
+    margin-right: 0;
+  }
+
+  .factoring-type-item:nth-child(12) {
+    margin-left: 25.5%;
+  }
+
+  .factoring-type-item:nth-child(12),
+  .factoring-type-item:nth-child(13) {
+    margin-top: -156px;
+    margin-bottom: 201px;
+  }
+
+  .factoring-item-title {
+    font-size: 20px;
+    margin-bottom: 22px;
+    width: 50%;
+  }
+
+  .factoring-type-img {
+    width: 23%;
+  }
+
+  .factoring-type-img.left-item {
+    margin-right: 28px;
+  }
+
+  .factoring-type-img.left-item img {
+    width: 652px;
+    max-width: none;
+    right: -72px;
+  }
+
+  .factoring-type-img.left-item:before {
+    right: 34%;
+  }
+
+  .factoring-type-img.right-item img {
+    bottom: 21px;
+    width: 423px;
+    max-width: none;
+  }
+
+  .factoring-type-img.right-item:before {
+    left: 62%;
+    top: -22px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
   }
 
   .footer {
