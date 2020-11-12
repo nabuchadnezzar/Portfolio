@@ -493,7 +493,7 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: '../img/riada-marker.svg',
+            iconImageHref: 'img/riada-marker.svg',
             // Размеры метки.
             iconImageSize: [25, 32],
             // Смещение левого верхнего угла иконки относительно
