@@ -998,9 +998,8 @@ textarea {
 }
 
 .steps-item.link-item {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
 }
 
 .steps-item.link-item img {
@@ -1178,6 +1177,7 @@ textarea {
   .header {
     position: relative;
     padding: 20px 0;
+    z-index: 1;
   }
 
   .header-container {
