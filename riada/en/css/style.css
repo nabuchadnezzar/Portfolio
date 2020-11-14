@@ -817,7 +817,7 @@ body.login-page .header-login {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  opacity: .4;
+  opacity: 0;
   max-width: 526px;
 }
 
@@ -1150,6 +1150,7 @@ body.login-page .header-login {
   position: relative;
   width: 100%;
   margin-bottom: 40px;
+  opacity: 0;
 }
 
 .factoring-type-img img {
@@ -1414,11 +1415,10 @@ body.login-page .header-login {
   .intro-slide-img {
     opacity: 1;
     max-width: none;
-    width: 50%;
+    width: 48%;
   }
 
   .advants-img {
-    opacity: 1;
     width: 50%;
   }
 
@@ -1573,9 +1573,9 @@ body.login-page .header-login {
   }
 
   .intro-slide-img {
-    width: 50%;
+    width: 44%;
     top: auto;
-    bottom: -8vw;
+    bottom: -5vw;
     -webkit-transform: none;
         -ms-transform: none;
             transform: none;
@@ -1892,6 +1892,10 @@ body.login-page .header-login {
     font-size: 40px;
   }
 
+  .intro-slide-img {
+    width: 43%;
+  }
+
   .advants {
     padding: 110px 0;
   }
@@ -2103,7 +2107,7 @@ body.login-page .header-login {
 
   .intro-slide-img {
     right: auto;
-    left: 52.8%;
+    left: 56.7%;
     bottom: -30px;
   }
 
@@ -2422,7 +2426,7 @@ body.login-page .header-login {
   }
 
   .intro-slide-img {
-    width: 48.5%;
+    width: 44.5%;
   }
 
   .steps-container {
