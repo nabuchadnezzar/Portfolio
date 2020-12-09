@@ -411,6 +411,35 @@ $( document ).ready(function() {
         fade: true
     });
 
+    if ($(window).width() < 768) {
+        $('.steps-list').slick({
+            dots: true,
+            arrows: false,
+            speed: 400,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+            adaptiveHeight: true,
+            centerPadding: '24px',
+            responsive: [
+
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    }
     var maxHeight = 0;
     $('.steps-item').outerHeight('auto');
     $('.steps-title').outerHeight('auto');
@@ -418,7 +447,9 @@ $( document ).ready(function() {
         maxHeight = Math.max(maxHeight, parseInt($(this).outerHeight()));
     });
     $('.steps-item').outerHeight(maxHeight);
-    $('.steps-title').outerHeight(maxHeight);
+    if ($(window).width() >= 768) {
+        $('.steps-title').outerHeight(maxHeight);
+    }
 
     $(window).on('resize', function () {
         var maxHeight = 0;
@@ -428,7 +459,9 @@ $( document ).ready(function() {
             maxHeight = Math.max(maxHeight, parseInt($(this).outerHeight()));
         });
         $('.steps-item').outerHeight(maxHeight);
-        $('.steps-title').outerHeight(maxHeight);
+        if ($(window).width() >= 768) {
+            $('.steps-title').outerHeight(maxHeight);
+        }
     });
 
 
@@ -454,7 +487,9 @@ $( document ).ready(function() {
     $('.factoring-type-item').each( function(){
         maxHeight = Math.max(maxHeight, parseInt($(this).outerHeight()));
     });
-    $('.factoring-type-img').outerHeight(maxHeight);
+    if($(window).width() >= 768) {
+        $('.factoring-type-img').outerHeight(maxHeight);
+    }
     if($(window).width() >= 1024) {
         $('.factoring-type-item').outerHeight(maxHeight);
     }
@@ -466,11 +501,25 @@ $( document ).ready(function() {
         $('.factoring-type-item').each( function(){
             maxHeight = Math.max(maxHeight, parseInt($(this).outerHeight()));
         });
-        $('.factoring-type-img').outerHeight(maxHeight);
+
+        if($(window).width() >= 768) {
+            $('.factoring-type-img').outerHeight(maxHeight);
+        }
         if($(window).width() >= 1024) {
             $('.factoring-type-item').outerHeight(maxHeight);
         }
     });
+
+    $('.factoring-item-title').on('click', function () {
+        if($(this).hasClass('active')) {
+            $(this).removeClass('active');
+            $(this).siblings('.factoring-item-description').slideUp(400);
+        } else {
+            $(this).addClass('active');
+            $(this).siblings('.factoring-item-description').slideDown(400);
+        }
+    })
+
 
 });
 
@@ -493,7 +542,7 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: 'img/riada-marker.svg',
+            iconImageHref: '/ru/img/riada-marker.svg',
             // Размеры метки.
             iconImageSize: [25, 32],
             // Смещение левого верхнего угла иконки относительно
